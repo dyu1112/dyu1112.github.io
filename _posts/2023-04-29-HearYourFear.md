@@ -11,10 +11,12 @@ preview: /assets/HYF_Preview.png
 Planned Release: April 29, 2023
 
   
+  
 
 Made in Unity in C#.
 3D assets created in Autodesk Maya.
 
+  
   
 
 Responsibilities:
@@ -28,6 +30,7 @@ Responsibilities:
 - Ran multiple playtests every week, alongside a partner
 - Created an audio asset list for the audio team
 
+  
   
 
 Created for CTIN-489: Intermediate Game Design and Production.
