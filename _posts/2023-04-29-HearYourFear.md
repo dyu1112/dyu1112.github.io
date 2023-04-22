@@ -9,9 +9,7 @@ preview: /assets/HYF_Preview.png
 ![Picture 1](/assets/HYF_Full.png)
 
 Planned Release: April 29, 2023
-<br />
-<br />
-<br />
+
 Made in Unity in C#.
 3D assets created in Autodesk Maya.
 <br />

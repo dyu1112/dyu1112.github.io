@@ -9,12 +9,10 @@ preview: /assets/Cellulose_Preview.png
 ![Picture 1](/assets/Cellulose_Full.png)
 
 Released: November 6, 2022
-<br />
-<br />
-<br />
-Play the game: https://calnine.itch.io/celulose
 
-Soundtrack: https://soundcloud.com/user-765853018/sets/cellulose-soundtrack
+**Website: https://calnine.itch.io/celulose**
+
+**Soundtrack: https://soundcloud.com/user-765853018/sets/cellulose-soundtrack**
 
 Made in Unity in C#.
 
