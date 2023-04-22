@@ -8,10 +8,19 @@ preview: /assets/MPRMP_Preview.png
 
 ![Picture 1](/assets/MPRMP_Full.png)
 
+Released: October 23, 2022
+
 Play the game: https://gvolt.itch.io/hide-your-stuff
 
-Made in Unity. I worked on a team of 8 people to make this game in one weekend. I recorded and implemented all the sound effects for walking and for storing and removing items. I contributed the idea that the mother would be in the room, searching during the hiding process so the player would constantly have to be moving. I also came up with the idea of the light switch mechanic.
+Made in Unity in C#.
+Audio mixing done in Audacity.
 
-Entry to the MEGA Newbies and Vets Game Jam 2022 with the given theme constraint: "privacy." Awarded "Best Overall."
+Responsibilities:
+- Created sound effects for the player walk cycle
+- Created and implemented sound effects for placing and removing various item types
+- Came up with the idea of the mother searching while the player hides items simultaneously
+- Came up with the light switch mechanic, enabling players to temporarily hinder the mother
+
+Entry to the weekend-long MEGA Newbies and Vets Game Jam 2022 with the given theme constraint: "privacy." Awarded "Best Overall."
 
 In the game, you play as a college student who must constantly move and hide their scandalous belongings to prevent your mother, who is actively searching for them, from finding them. The player can also turn off a light switch to temporarily distract the mother.
