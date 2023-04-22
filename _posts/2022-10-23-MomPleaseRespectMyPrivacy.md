@@ -10,7 +10,7 @@ preview: /assets/MPRMP_Preview.png
 
 Released: October 23, 2022
 
-**Website: https://gvolt.itch.io/hide-your-stuff**
+**[Website](https://gvolt.itch.io/hide-your-stuff)**
 
 Made in Unity in C#.
 Audio mixing done in Audacity.

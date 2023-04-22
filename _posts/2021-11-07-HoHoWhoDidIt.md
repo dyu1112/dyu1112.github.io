@@ -10,9 +10,9 @@ preview: /assets/HHWDI_Preview.png
 
 Released: November 7, 2021
 
-**Website: https://dwagon6.itch.io/ho-ho-who-done-it**
+**[Website](https://dwagon6.itch.io/ho-ho-who-done-it)**
 
-**Soundtrack: https://on.soundcloud.com/Cjg8k**
+**[Soundtrack](https://on.soundcloud.com/Cjg8k)**
 
 Made in Unity in C#.
 Music produced in Garageband.
