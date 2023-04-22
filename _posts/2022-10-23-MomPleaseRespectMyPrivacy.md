@@ -10,14 +10,14 @@ preview: /assets/MPRMP_Preview.png
 
 Released: October 23, 2022
 
-
+  
 
 Play the game: https://gvolt.itch.io/hide-your-stuff
 
 Made in Unity in C#.
 Audio mixing done in Audacity.
 
-
+  
 
 Responsibilities:
 - Created sound effects for the player walk cycle
@@ -25,7 +25,7 @@ Responsibilities:
 - Came up with the idea of the mother searching while the player hides items simultaneously
 - Came up with the light switch mechanic, enabling players to temporarily hinder the mother
 
-
+  
 
 Entry to the weekend-long MEGA Newbies and Vets Game Jam 2022 with the given theme constraint: "privacy." Awarded "Best Overall."
 

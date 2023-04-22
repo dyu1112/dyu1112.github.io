@@ -10,7 +10,7 @@ preview: /assets/Cellulose_Preview.png
 
 Released: November 6, 2022
 
-
+  
 
 Play the game: https://calnine.itch.io/celulose
 
@@ -22,7 +22,7 @@ Music produced in Garageband.
 
 Audio mixing done in Audacity.
 
-
+  
 
 Responsibilities:
 - Composed the soundtrack, creating 4 tracks total, with additional mixing in Audacity
@@ -32,7 +32,7 @@ Responsibilities:
 - Fixed collision issues in the 1.1 update
 - Fixed all WebGL builds and crashes in the 1.1 update
 
-
+  
 
 Entry to the weekend-long Open Alpha Open Game Jam 2022 with the given theme constraint: "mini." Awarded "Best Sound," "Best Design," and "Best Mechanics."
 
