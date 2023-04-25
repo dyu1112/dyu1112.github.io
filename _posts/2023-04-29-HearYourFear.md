@@ -17,8 +17,8 @@ Made in Unity in C#.
 <br />
 **Responsibilities:**
 - Created all 3D models and environments in Autodesk Maya
+- Implemented all audio functonality
 - Implemented enemy pathing
-- Implemented all audio
 - Implemented the main menu
 - Implemented player movement
 - Implemented a level manager, game manager, and audio manager

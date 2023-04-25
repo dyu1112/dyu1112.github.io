@@ -23,7 +23,7 @@ Audio mixing done in Audacity.
 <br />
 <br />
 **Responsibilities:**
-- Composed the soundtrack, creating 4 tracks total, with additional mixing in Audacity
+- Composed the entire soundtrack, consisting of 4 tracks total, with additional mixing in Audacity
 - Programmed the Lives and Score systems, as well as a Game Over state
 - Implemented and programmed all UI, including the HUD, main menu, and pause menu
 - Implemented a toggle that allowed players to switch between 8-bit and non-8-bit music

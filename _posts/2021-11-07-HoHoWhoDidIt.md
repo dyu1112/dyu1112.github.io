@@ -20,7 +20,7 @@ Music produced in Garageband.
 <br />
 <br />
 **Responsibilities:**
-- Composed the soundtrack, creating 7 tracks total
+- Composed the entire soundtrack, consisting of 7 tracks total
 - Created sound effects for the player walk cycle
 - Created sound effects for pushing and pulling puzzle pieces
 - Suggested that puzzles did not need to be square, thereby saving the artists and programmers time that would've been spent making more puzzle pieces
