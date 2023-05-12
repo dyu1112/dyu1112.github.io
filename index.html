@@ -3,9 +3,26 @@
 <head>
     <title>Daniel Yu Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/const.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/heading.js"></script>
 </head>
-<body>
+<body onload="loadPortfolio()">
+    <div class="headerBox">
+        Daniel Yu
+        <table style="float:right">
+            <tr>
+                <td><heading style="font-weight: bold; color: var(--emerald)" onclick="loadHome()">Home</heading></td>
+                <td><heading onclick="loadResume()">Resume</heading></td>
+                <td><heading onclick="loadAbout()">About Me</heading></td>
+            </tr>
+        </table>
+    </div>
+
+    <br/>
     <h1>Daniel Yu</h1>
     Game developer, music composer, and sound designer
+
+    <div id="portfolio"></div>
 </body>
 </html>

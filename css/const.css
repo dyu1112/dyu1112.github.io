@@ -1,3 +1,7 @@
+:root {
+    --emerald: #24edbe;
+}
+
 body {
     background-color: #2a353b;
     color: white;
@@ -8,6 +12,30 @@ body {
 }
 
 h1 {
-    color: #24edbe;
+    color: var(--emerald);
     font-family: arial, sans-serif;
+}
+
+heading {
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+}
+
+    heading:hover {
+        color: var(--emerald);
+        cursor: pointer;
+    }
+
+.headerBox {
+    color: var(--emerald);
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+td {
+    padding-left: 20px;
+    text-align: right;
 }
