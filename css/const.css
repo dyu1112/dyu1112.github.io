@@ -1,24 +1,81 @@
 :root {
     --emerald: #24edbe;
+    --text: white;
+    --background: #2a353b;
+}
+
+@font-face {
+    font-family: "Adir";
+    src: url('29LTAdir-Regular.woff') format(woff);
+}
+
+@font-face {
+    font-family: "AdirBold";
+    src: url('29LTAdir-Bold.woff') format(woff);
+}
+
+@font-face {
+    font-family: "AdirExtraBold";
+    src: url('29LTAdir-ExtraBold.woff') format(woff);
 }
 
 body {
-    background-color: #2a353b;
-    color: white;
+    background-color: var(--background);
+    color: var(--text);
     font-family: arial, sans-serif;
-    font-size: 14px;
-    padding-left: 10%;
-    padding-right: 10%;
+    font-size: 16px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.light-mode {
+    --background: white;
+    --text: #2a353b;
+    --emerald: #00c295;
+}
+
+li {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+a {
+    color: var(--emerald);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
 }
 
 h1 {
     color: var(--emerald);
-    font-family: arial, sans-serif;
+    font-family: AdirBold, arial, sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    
+    font-family: Adir, arial, sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    color: var(--emerald);
+    font-family: Adir, arial, sans-serif;
+    font-weight: normal;
+    font-size: 28px;
 }
 
 heading {
-    font-size: 14px;
-    color: white;
+    font-family: Adir, arial, sans-serif;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -28,14 +85,12 @@ heading {
     }
 
 .headerBox {
-    color: var(--emerald);
-    font-size: 24px;
-    font-weight: bold;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-family: AdirBold, arial, sans-serif;
+    font-size: 28px;
+    padding: 20px 0;
 }
 
-td {
+.menuItem {
     padding-left: 20px;
     text-align: right;
 }

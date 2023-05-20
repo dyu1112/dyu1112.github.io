@@ -1,20 +1,45 @@
 <!doctype html>
 <html>
 <head>
-    <title>Daniel Yu Portfolio</title>
+    <title>Daniel Yu Resume</title>
     <link rel="stylesheet" type="text/css" href="css/const.css">
     <script type="text/javascript" src="js/heading.js"></script>
+    <script src="https://kit.fontawesome.com/7d29ad6950.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="headerBox">
         Daniel Yu
         <table style="float:right">
             <tr>
-                <td><heading onclick="loadHome()">Home</heading></td>
-                <td><heading style="font-weight: bold; color: var(--emerald)" onclick="loadResume()">Resume</heading></td>
-                <td><heading onclick="loadAbout()">About Me</heading></td>
+                <td class="menuItem"><heading onclick="loadHome()">Home</heading></td>
+                <td class="menuItem"><heading style="font-family: AdirBold, arial, sans-serif; color: var(--emerald)" onclick="loadResume()">Resume</heading></td>
+                <td class="menuItem"><heading onclick="loadAbout()">About Me</heading></td>
             </tr>
         </table>
     </div>
+
+    <h1>Resume</h1>
+    <object data="assets/DanielYu_Resume.pdf" type="application/pdf" style="display:block; margin: 0 auto; width: 70%; height: 600px"></object>
+    <br />
+    <div style="text-align:center">Not showing up? Download <a href="assets/DanielYu_Resume.pdf" target="_blank">here.</a></div>
+
+    <br />
+    <hr />
+    <table>
+        <tr>
+            <td width="25%">
+                <h2>Daniel Yu</h2>
+            </td>
+            <td width="25%">
+                <a href="https://www.linkedin.com/in/daniel-yu-aa4b8420b/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i> dyu1112</a>
+            </td>
+            <td width="25%">
+                <a href="https://github.com/dyu1112" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i> dyu1112</a>
+            </td>
+            <td width="25%">
+                <a href="mailto:danielyu742@outlook.com" target="_blank"><i class="fa-solid fa-envelope fa-2xl" style="color: #ffffff;"></i> danielyu742@outlook.com</a>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
