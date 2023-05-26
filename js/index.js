@@ -1,9 +1,9 @@
 var data = '['
     + '{"name": "Hear Your Fear", "roles": "Programmer, Designer, 3D Artist", "page": "hearyourfear.html", "img": "assets/ProfilePicture.png"}'
-    + ',{"name": "Bone Boy", "roles": "Composer, Sound Designer, Audio Programmer", "page": "boneboy.html", "img": "assets/ProfilePicture.png"}'
-    + ',{"name": "Cellulose", "roles": "Composer, Programmer, UI", "page": "cellulose.html", "img": "assets/ProfilePicture.png"}'
-    + ',{"name": "Mom, Please Respect My Privacy", "roles": "Sound Designer, Audio Programmer", "page": "mprmp.html", "img": "assets/ProfilePicture.png"}'
-    + ',{"name": "Ho Ho Who Did It?", "roles": "Audio Designer", "page": "hhwdi.html", "img": "assets/ProfilePicture.png"}'
+    + ',{"name": "Bone Boy", "roles": "Composer, Sound Designer, Audio Programmer", "page": "boneboy.html", "img": "assets/boneboy_preview.png"}'
+    + ',{"name": "Cellulose", "roles": "Composer, Programmer, UI", "page": "cellulose.html", "img": "assets/cellulose_preview.jpg"}'
+    + ',{"name": "Mom, Please Respect My Privacy", "roles": "Sound Designer, Audio Programmer", "page": "mprmp.html", "img": "assets/mprmp_preview.png"}'
+    + ',{"name": "Ho Ho Who Did It?", "roles": "Audio Designer", "page": "hhwdi.html", "img": "assets/hhwdi_preview.jpg"}'
     + ']';
 
 
