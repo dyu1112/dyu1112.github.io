@@ -1,0 +1,14 @@
+.hoverbox {
+    background-color: var(--background);
+    padding: 20px 20px 20px 20px;
+}
+
+    .hoverbox:hover {
+        cursor: pointer;
+        background-color: var(--transparent);
+    }
+
+.portfolioItem {
+    padding: 20px 20px 20px 20px;
+    vertical-align: top;
+}

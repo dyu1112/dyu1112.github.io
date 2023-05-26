@@ -1,5 +1,48 @@
----
-layout: home
----
+<!doctype html>
+<html>
+<head>
+    <title>Daniel Yu Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/const.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="icon" type="image/png" href="assets/icon.png">
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/heading.js"></script>
+    <script src="https://kit.fontawesome.com/7d29ad6950.js" crossorigin="anonymous"></script>
+</head>
+<body onload="loadPortfolio()">
+    <div class="headerBox">
+        Daniel Yu
+        <table style="float:right">
+            <tr>
+                <td class="menuItem"><heading style="font-family: AdirBold, arial, sans-serif; color: var(--emerald)" onclick="loadHome()">Home</heading></td>
+                <td class="menuItem"><heading onclick="loadResume()">Resume</heading></td>
+                <td class="menuItem"><heading onclick="loadAbout()">About Me</heading></td>
+            </tr>
+        </table>
+    </div>
 
-{% include preview.html %}
+    <h1>Daniel Yu</h1>
+    <p>Software developer, game developer, music composer, and sound designer</p>
+
+    <div id="portfolio"></div>
+
+    <br/>
+    <hr />
+    <table>
+        <tr>
+            <td width="25%">
+                <h2>Daniel Yu</h2>
+            </td>
+            <td width="20%">
+                <a href="https://www.linkedin.com/in/daniel-yu-aa4b8420b/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl" style="color: var(--text);"></i> dyu1112</a>
+            </td>
+            <td width="20%">
+                <a href="https://github.com/dyu1112" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: var(--text);"></i> dyu1112</a>
+            </td>
+            <td width="30%">
+                <a href="mailto:danielyu742@outlook.com" target="_blank"><i class="fa-solid fa-envelope fa-2xl" style="color: var(--text);"></i> danielyu742@outlook.com</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,132 @@
+:root {
+    --emerald: #24edbe;
+    --text: white;
+    --background: #2a353b;
+    --transparent: #4C5960;
+}
+
+@font-face {
+    font-family: "Adir";
+    src: url('29LTAdir-Regular.woff') format(woff);
+}
+
+@font-face {
+    font-family: "AdirBold";
+    src: url('29LTAdir-Bold.woff') format(woff);
+}
+
+@font-face {
+    font-family: "AdirExtraBold";
+    src: url('29LTAdir-ExtraBold.woff') format(woff);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #87949c;
+    border-radius: 20px;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #5f6d75;
+    }
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.embed_video {
+    aspect-ratio: 16/9;
+    border: none;
+    display:block;
+}
+
+.light-mode {
+    --background: white;
+    --text: #2a353b;
+    --emerald: #00c295;
+}
+
+li {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+a {
+    color: var(--emerald);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+h1 {
+    color: var(--emerald);
+    font-family: AdirBold, arial, sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    
+    font-family: Adir, arial, sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    color: var(--emerald);
+    font-family: Adir, arial, sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+heading {
+    font-family: Adir, arial, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+    heading:hover {
+        color: var(--emerald);
+        cursor: pointer;
+    }
+
+.headerBox {
+    font-family: AdirBold, arial, sans-serif;
+    font-size: 28px;
+    padding: 20px 0;
+}
+
+.menuItem {
+    padding-left: 20px;
+    text-align: right;
+}
