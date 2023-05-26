@@ -54,6 +54,12 @@ body {
     padding-right: 20%;
 }
 
+.embed_video {
+    aspect-ratio: 16/9;
+    border: none;
+    display:block;
+}
+
 .light-mode {
     --background: white;
     --text: #2a353b;
