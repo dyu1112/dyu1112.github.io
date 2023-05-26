@@ -1,8 +1,9 @@
 var data = '['
-    + '{"name": "test game", "roles": "designer", "page": "test.html"}'
-    + ',{"name": "test game2", "roles": "designer2", "page": "test2.html"}'
-    + ',{"name": "test game3", "roles": "designer2", "page": "test2.html"}'
-    + ',{"name": "test game4", "roles": "designer2", "page": "test2.html"}'
+    + '{"name": "Hear Your Fear", "roles": "Programmer, Designer, 3D Artist", "page": "hearyourfear.html", "img": "assets/ProfilePicture.png"}'
+    + ',{"name": "Bone Boy", "roles": "Composer, Sound Designer, Audio Programmer", "page": "boneboy.html", "img": "assets/ProfilePicture.png"}'
+    + ',{"name": "Cellulose", "roles": "Composer, Programmer, UI", "page": "cellulose.html", "img": "assets/ProfilePicture.png"}'
+    + ',{"name": "Mom, Please Respect My Privacy", "roles": "Sound Designer, Audio Programmer", "page": "mprmp.html", "img": "assets/ProfilePicture.png"}'
+    + ',{"name": "Ho Ho Who Did It?", "roles": "Audio Designer", "page": "hhwdi.html", "img": "assets/ProfilePicture.png"}'
     + ']';
 
 
@@ -12,13 +13,13 @@ function loadPortfolio() {
     for (var i = 0; i < json.length; i += 3) {
         temp += "<tr>";
         for (var j = i; j < i + 3; j++) {
-            temp += "<td width=\"33%\">";
+            temp += "<td width=\"33%\" class=\"portfolioItem\">";
             if (j < json.length) {
-                temp += "<div class=\"hoverbox\" onclick=\"loadItem('" + json[j].page + "')\">"
-                temp += json[j].name + " ";
-                temp += json[j].roles + " ";
+                temp += "<div class=\"hoverbox\" onclick=\"loadItem('" + json[j].page + "')\">";
+                temp += "<img src=\"" + json[j].img + "\" width=\"100%\">";
+                temp += "<br /><br /><h3>" + json[j].name + "</h3>";
+                temp += "<p>" + json[j].roles + "</p>";
                 temp += "</div>";
-                temp += "<br/>";
             }
             temp += "</td>"
         }

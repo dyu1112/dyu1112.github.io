@@ -2,6 +2,7 @@
     --emerald: #24edbe;
     --text: white;
     --background: #2a353b;
+    --transparent: #4C5960;
 }
 
 @font-face {
@@ -17,6 +18,31 @@
 @font-face {
     font-family: "AdirExtraBold";
     src: url('29LTAdir-ExtraBold.woff') format(woff);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: var(--background);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #87949c;
+    border-radius: 20px;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #5f6d75;
+    }
+
+html {
+    overflow-y: scroll;
 }
 
 body {
@@ -42,6 +68,8 @@ li {
 p {
     line-height: 1.6;
     font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 a {
@@ -71,11 +99,13 @@ h3 {
     font-family: Adir, arial, sans-serif;
     font-weight: normal;
     font-size: 28px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 heading {
     font-family: Adir, arial, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: normal;
 }
 
