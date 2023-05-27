@@ -9,7 +9,7 @@
     <script type="text/javascript" src="js/heading.js"></script>
     <script src="https://kit.fontawesome.com/7d29ad6950.js" crossorigin="anonymous"></script>
 </head>
-<body onload="loadPortfolio()">
+<body onload="loadPortfolio('All')">
     <div class="headerBox">
         Daniel Yu
         <table style="float:right">
@@ -23,10 +23,21 @@
 
     <h1>Daniel Yu</h1>
     <p>Software developer, game developer, music composer, and sound designer</p>
+    <br />
+
+    <div class="categoryBox">
+        <table>
+            <tr>
+                <td class="categoryItem" id="All"><heading style="font-family: AdirBold, arial, sans-serif; color: var(--emerald)" onclick="loadPortfolio('All')">All</heading></td>
+                <td class="categoryItem" id="Games"><heading onclick="loadPortfolio('Games')">Games</heading></td>
+                <td class="categoryItem" id="Software"><heading onclick="loadPortfolio('Software')">Software</heading></td>
+            </tr>
+        </table>
+    </div>
 
     <div id="portfolio"></div>
 
-    <br/>
+    <br />
     <hr />
     <table>
         <tr>

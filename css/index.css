@@ -12,3 +12,14 @@
     padding: 20px 20px 20px 20px;
     vertical-align: top;
 }
+
+.categoryBox {
+    font-family: AdirBold, arial, sans-serif;
+    font-size: 28px;
+    padding: 0;
+}
+
+.categoryItem {
+    padding-left: 20px;
+    text-align: left;
+}
