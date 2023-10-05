@@ -1,5 +1,7 @@
 var data = '['
-    + '{"name": "USCheduler", "roles": "Backend Developer", "page": "uscheduler.html", "img": "assets/uscheduler_preview.png", "category": "Software"}'
+    + '{"name": "Free Will", "roles": "Programmer, Designer", "page": "freewill.html", "img": "assets/freewill_preview.png", "category": "Games"}'
+    + ',{"name": "Sorelle", "roles": "Sound Designer", "page": "sorelle.html", "img": "assets/sorelle_preview.png", "category": "Games"}'
+    + ',{"name": "USCheduler", "roles": "Backend Developer", "page": "uscheduler.html", "img": "assets/uscheduler_preview.png", "category": "Software"}'
     + ',{"name": "Hear Your Fear", "roles": "Programmer, Designer, 3D Artist", "page": "hearyourfear.html", "img": "assets/hearyourfear_preview.png", "category": "Games"}'
     + ',{"name": "Bone Boy", "roles": "Composer, Sound Designer, Audio Programmer", "page": "boneboy.html", "img": "assets/boneboy_preview.png", "category": "Games"}'
     + ',{"name": "Cellulose", "roles": "Composer, Programmer, UI", "page": "cellulose.html", "img": "assets/cellulose_preview.jpg", "category": "Games"}'
