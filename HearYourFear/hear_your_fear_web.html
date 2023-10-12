@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1920 height=1080></canvas>
+      <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -58,9 +58,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Hear Your Fear WebGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Hear Your Fear WebGL.data.gz",
-        frameworkUrl: buildUrl + "/Hear Your Fear WebGL.framework.js.gz",
-        codeUrl: buildUrl + "/Hear Your Fear WebGL.wasm.gz",
+        dataUrl: buildUrl + "/Hear Your Fear WebGL.data",
+        frameworkUrl: buildUrl + "/Hear Your Fear WebGL.framework.js",
+        codeUrl: buildUrl + "/Hear Your Fear WebGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Daniel Yu and Jiayi Fang",
         productName: "Hear Your Fear",
@@ -93,11 +93,11 @@
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/Hear Your Fear WebGL.jpg.gz') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/Hear Your Fear WebGL.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
