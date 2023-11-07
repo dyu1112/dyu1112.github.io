@@ -1,5 +1,5 @@
 var data = '['
-    + '{"name": "Unnamed Trick or Treat Sim", "roles": "Sound Lead", "page": "trickortreat.html", "img": "assets/unknown_preview.jpg", "category": ["Sound"]}'
+    + '{"name": "Boo\'s There?", "roles": "Sound Lead", "page": "trickortreat.html", "img": "assets/unknown_preview.jpg", "category": ["Sound"]}'
     + ',{"name": "Free Will", "roles": "Programmer, Designer", "page": "freewill.html", "img": "assets/freewill_preview.png", "category": ["Game Programming"]}'
     + ',{"name": "Sorelle", "roles": "Sound Designer", "page": "sorelle.html", "img": "assets/sorelle_preview.png", "category": ["Sound"]}'
     + ',{"name": "USCheduler", "roles": "Backend Developer", "page": "uscheduler.html", "img": "assets/uscheduler_preview.png", "category": ["Software"]}'
