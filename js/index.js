@@ -1,5 +1,5 @@
 var data = '['
-    + '{"name": "Boo\'s There?", "roles": "Sound Lead", "page": "trickortreat.html", "img": "assets/unknown_preview.jpg", "category": ["Sound"]}'
+    + '{"name": "Boo\'s There?", "roles": "Sound Lead", "page": "trickortreat.html", "img": "assets/boosthere_preview.png", "category": ["Sound"]}'
     + ',{"name": "Free Will", "roles": "Programmer, Designer", "page": "freewill.html", "img": "assets/freewill_preview.png", "category": ["Game Programming"]}'
     + ',{"name": "Sorelle", "roles": "Sound Designer", "page": "sorelle.html", "img": "assets/sorelle_preview.png", "category": ["Sound"]}'
     + ',{"name": "Portal Recreation", "roles": "Programmer", "page": "portalrecreation.html", "img": "assets/portal_preview.png", "category": ["Game Programming"]}'
