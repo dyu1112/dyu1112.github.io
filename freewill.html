@@ -49,7 +49,7 @@
                     <li>Implemented a save and load system that saves data to a modifiable JSON file</li>
                     <li>Implemented an options menu with submenus, navigable by mouse and keyboard</li>
                     <li>Created functionality for reading, writing, and correcting an ASCII text file to create an invisible maze in-game</li>
-                    <li>Implemented a mouse-repelling force within a radius around an in-game enemy</li>
+                    <li>Implemented a cursor-repelling force within a radius around an in-game object</li>
                 </ul>
             </td>
             <td width="50%" style="vertical-align: top">
@@ -65,6 +65,55 @@
     <p>
         Free Will is a metagame puzzle-RPG that requires the player to find and modify files and other features outside the game environment to solve puzzles.
     </p>
+
+    <br />
+    <hr />
+    <br />
+
+    <h3>Spamming Error Popups</h3>
+    <table style="width:100%">
+        <tr>
+            <td width="50%" style="vertical-align: top; padding-right: 20px">
+                <p>Our goal was to spam quickly spawning error popup windows that could not be closed without in-game intervention. My task, for Windows, was to instantiate the error popups outside of the game window. I created the popups as a separate executable in C# using Windows Forms. In Unity, I created functionality for instantiating the windows, closing all the windows, and keeping track of the number of windows closed by the user.</p>
+            </td>
+            <td width="50%" style="vertical-align: central">
+                <iframe width="100%" class="embed_video" src="https://www.youtube.com/embed/erfyGxy1-xA?si=nk_iRAJ0S8x9DPkX" allowfullscreen></iframe>
+            </td>
+        </tr>
+    </table>
+
+    <br />
+    <hr />
+    <br />
+
+    <h3>Cursor-Repelling Force</h3>
+    <table style="width:100%">
+        <tr>
+            <td width="50%" style="vertical-align: central">
+                <iframe width="100%" class="embed_video" src="https://www.youtube.com/embed/hDcKq6Xic00?si=Z_U7ytd5g5s2gWcX" allowfullscreen></iframe>
+            </td>
+            <td width="50%" style="vertical-align: top; padding-left: 20px">
+                <p>Our goal was to have a meta puzzle in which the player would push back against a cursor-repelling force to get the cursor in a certain area on the screen, and my task was to create this force. For Windows, I used the user32.dll library in C# to detect and move the cursor's position within a certain radius of a point. I continued tweaking parameters after playtests and feedback and resulted in a challenging, yet simple meta puzzle.</p>
+            </td>
+        </tr>
+    </table>
+
+    <br />
+    <hr />
+    <br />
+
+    <h3>Invisible Maze</h3>
+    <table style="width:100%">
+        <tr>
+            <td width="50%" style="vertical-align: top; padding-right: 20px">
+                <p>Our goal was to create an invisible maze that utilized an external ASCII text file to communicate the maze's layout to the player without letting the player modify the maze. My task was to create functionality for reading, writing, renaming, and correcting the text file to reflect the maze.</p>
+            </td>
+            <td width="50%" style="vertical-align: central">
+                <iframe width="100%" class="embed_video" src="https://www.youtube.com/embed/_s-2VbdPii4?si=1D08oZc1w4WBg8Y7" allowfullscreen></iframe>
+            </td>
+        </tr>
+    </table>
+    <p>To prevent the player from modifying the maze, I made the file read-only unless the game was modifying the file. Whenever in-game switches were pressed that modified the maze, the file's contents and name were modified accordingly. When loading in the game, the game uses the file's name to determine which in-game switches have already been pressed. If the player tries to rename the file while playing through the maze, the game internally keeps track of what the maze should be named and corrects it accordingly.</p>
 
     <br />
     <hr />
