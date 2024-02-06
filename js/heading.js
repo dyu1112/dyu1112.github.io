@@ -2,8 +2,8 @@ function loadHome() {
     window.location.href = "index.html";
 }
 
-function loadResume() {
-    window.location.href = "resume.html";
+function loadCV() {
+    window.location.href = "cv.html";
 }
 
 function loadAbout() {
