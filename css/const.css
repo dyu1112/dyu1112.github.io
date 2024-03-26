@@ -1,23 +1,23 @@
 :root {
     --emerald: #03DAC6;
     --text: white;
-    --background: #2a2f36;
+    --background: #1c1e21;
     --transparent: #535b61;
 }
 
 @font-face {
-    font-family: "Adir";
-    src: url('29LTAdir-Regular.woff') format(woff);
+    font-family: "Roboto";
+    src: url('Roboto-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "AdirBold";
-    src: url('29LTAdir-Bold.woff') format(woff);
+    font-family: "RobotoBold";
+    src: url('Roboto-Bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "AdirExtraBold";
-    src: url('29LTAdir-ExtraBold.woff') format(woff);
+    font-family: "MontserratBold";
+    src: url('Montserrat-Bold.ttf') format('truetype');
 }
 
 /* width */
@@ -48,7 +48,7 @@ html {
 body {
     background-color: var(--background);
     color: var(--text);
-    font-family: arial, sans-serif;
+    font-family: Roboto, arial, sans-serif;
     font-size: 16px;
     padding-left: 20%;
     padding-right: 20%;
@@ -80,7 +80,7 @@ p {
 
 a {
     color: var(--emerald);
-    font-weight: bold;
+    font-family: RobotoBold, arial, sans-serif;
     text-decoration: none;
 }
 
@@ -90,27 +90,27 @@ a {
 
 h1 {
     color: var(--emerald);
-    font-family: AdirBold, arial, sans-serif;
+    font-family: MontserratBold, arial, sans-serif;
     font-weight: normal;
 }
 
 h2 {
-    font-family: Adir, arial, sans-serif;
+    font-family: Roboto, arial, sans-serif;
     font-weight: normal;
 }
 
 h3 {
     color: var(--emerald);
-    font-family: Adir, arial, sans-serif;
+    font-family: RobotoBold, arial, sans-serif;
     font-weight: normal;
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 0px;
     margin-top: 0px;
 }
 
 heading {
-    font-family: Adir, arial, sans-serif;
-    font-size: 22px;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -120,7 +120,7 @@ heading {
     }
 
 .headerBox {
-    font-family: AdirBold, arial, sans-serif;
+    font-family: MontserratBold, arial, sans-serif;
     font-size: 28px;
     padding: 20px 0;
 }
