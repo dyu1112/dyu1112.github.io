@@ -44,7 +44,7 @@ function loadPortfolio(category) {
     temp += "</table>";
     document.getElementById("portfolio").innerHTML = temp;
     document.getElementById(currentCategory).innerHTML = "<heading onclick=\"loadPortfolio('" + currentCategory + "')\">" + currentCategory + "</heading>";
-    document.getElementById(category).innerHTML = "<heading style=\"font-family: AdirBold, arial, sans-serif; color: var(--emerald)\" onclick=\"loadPortfolio('" + category + "')\">" + category + "</heading>";
+    document.getElementById(category).innerHTML = "<heading style=\"font-family: RobotoBold, arial, sans-serif; color: var(--emerald)\" onclick=\"loadPortfolio('" + category + "')\">" + category + "</heading>";
     currentCategory = category;
 }
 
