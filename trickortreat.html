@@ -36,7 +36,7 @@
                     </p>
                 </td>
                 <td width="50%">
-                    <iframe width="100%" class="embed_video" src="https://cdn.akamai.steamstatic.com/steam/apps/256985819/movie480_vp9.webm?t=1702429295" allowfullscreen></iframe>
+                    <iframe width="100%" class="embed_video" src="https://www.youtube.com/embed/Vntbcy5Ge8s" allowfullscreen></iframe>
                 </td>
             </tr>
         </table>
@@ -58,7 +58,7 @@
                 <ul>
                     <li>Integrated Wwise into the Unity project</li>
                     <li>Implemented a dialogue sound blip system that plays unique sounds for each letter for each NPC, in conjunction with Yarn Spinner</li>
-                    <li>Wrote Wwise documentation detailing basic Wwise functionality and previously implemented features</li>
+                    <li>Wrote Wwise documentation detailing Wwise functionality and previously implemented features</li>
                     <li>Collaborated with the Design team to create an asset list and establish the game's experience goals</li>
                     <li>Communicated with the Programming team to assist in fixing Wwise-related bugs</li>
                 </ul>
@@ -66,7 +66,26 @@
         </tr>
     </table>
     <p>
-        Play as a monster hunter and catch as many monsters as you can hidden amongst the trick-or-treaters. Interrogate visitors based on suspicious quirks of their appearance. Appease the kids by giving them candy, and make sure not to anger their parents! Pick through the hordes of sugar-high children and identify the monsters using their weaknesses. See right through ghosts with a flashlight and make vampires gag with unappetizing garlic candy before trapping them in your patented monster-proof cage. Keep your block safe and make your guild proud!
+        Catch monsters hidden amongst trick-or-treaters on Halloween night. Interrogate visitors based on
+        suspicious quirks of their appearance. Appease kids by giving them candy, and make sure not to anger their parents! Pick through the hordes of sugar-high children and identify monsters using their weaknesses. See right through ghosts with a flashlight and make vampires gag with unappetizing garlic before trapping them in your patented monster-proof cage.
+    </p>
+
+    <br />
+    <hr />
+    <br />
+
+    <h3>Animalese-esque Dialogue Blips</h3>
+    <p>
+        Inspired by Animal Crossing's fictional animalese language. In Unity, in an OnCharacterTyped()
+        function in conjunction with Yarn Spinner's typewriter effect, Unity would send the character typed
+        and the NPC who spoke it to Wwise through Wwise Switches. Using that information, Wwise
+        would retrieve the sound for that character corresponding to that NPC and play it, creating the
+        illusion of animalese.
+    </p>
+    <p>
+        To support the player's objective in differentiating between monsters and kids, in Wwise, monster dialogue blips
+        would be pitched to be lower and less fluctuating to sound less humanlike while kid dialogue blips would
+        fluctuate in pitch in a higher range.
     </p>
 
     <br />
