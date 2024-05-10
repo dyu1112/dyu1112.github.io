@@ -1,7 +1,7 @@
 :root {
     --emerald: #00E8BE;
     --text: white;
-    --background: #1D2025;
+    --background: #1E2024;
     --transparent: #40464a;
 }
 
@@ -65,6 +65,9 @@ body {
     font-size: 16px;
     padding-left: 20%;
     padding-right: 20%;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100vh;
 }
 
 @media only screen and (max-device-width: 1366px) {
@@ -156,4 +159,18 @@ heading {
 .menuItem {
     padding-left: 20px;
     text-align: right;
+}
+
+.footer {
+    background-color: var(--transparent);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 40px 20% 20px 20%;
+    box-shadow: 0px 0px 10px black;
+}
+
+.footer-content {
+    margin: 0 auto;
 }
