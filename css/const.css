@@ -1,7 +1,7 @@
 :root {
-    --emerald: #03DAC6;
+    --emerald: #00E8BE;
     --text: white;
-    --background: #1a1b1c;
+    --background: #1D2025;
     --transparent: #40464a;
 }
 
@@ -45,13 +45,34 @@ html {
     overflow-y: scroll;
 }
 
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 body {
     background-color: var(--background);
+    background-image: url("../assets/background.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: var(--text);
     font-family: Roboto, arial, sans-serif;
     font-size: 16px;
     padding-left: 20%;
     padding-right: 20%;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    body {
+        background-attachment: scroll;
+        background-size: cover;
+        background-repeat: repeat;
+    }
 }
 
 .embed_video {
@@ -122,7 +143,14 @@ heading {
 .headerBox {
     font-family: MontserratBold, arial, sans-serif;
     font-size: 28px;
-    padding: 20px 0;
+    padding: 30px 20%;
+    background-color: var(--transparent);
+    box-shadow: 0px 0px 10px black;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0;
+    transition: top 0.3s;
 }
 
 .menuItem {

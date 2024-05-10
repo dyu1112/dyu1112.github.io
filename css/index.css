@@ -1,11 +1,14 @@
 .hoverbox {
     background-color: var(--background);
     padding: 20px 20px 20px 20px;
+    transition: transform 0.2s;
 }
 
     .hoverbox:hover {
         cursor: pointer;
         background-color: var(--transparent);
+        box-shadow: 3px 3px 8px black;
+        transform: scale(1.03);
     }
 
 .portfolioItem {
