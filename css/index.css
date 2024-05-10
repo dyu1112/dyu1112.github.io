@@ -25,9 +25,9 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (orientation : portrait) {
     .hoverbox {
-        width: 98%; /* The width is 100%, when the viewport is 800px or smaller */
+        width: 40%; /* The width is 100%, when the viewport is 800px or smaller */
     }
 }
 
