@@ -20,32 +20,20 @@ var currentCategory = "All";
 
 function loadPortfolio(category) {
     var json = JSON.parse(data);
-    var temp = "<table style=\"width: 100%\">";
-    for (var i = 0; i < json.length; i += 3) {
-        temp += "<tr>";
-        for (var j = i; j < i + 3; j++) {
-            if (j < json.length) {
-                categories = json[j].category;
-                if (!categories.includes(category) && category != "All") {
-                    i++;
-                    continue;
-                }
-
-            }
-
-            temp += "<td width=\"33%\" class=\"portfolioItem\">";
-            if (j < json.length && (categories.includes(category) || category == "All")) {
-                temp += "<div class=\"hoverbox\" onclick=\"loadItem('" + json[j].page + "')\">";
-                temp += "<img src=\"" + json[j].img + "\" width=\"100%\">";
-                temp += "<br /><br /><h3>" + json[j].name + "</h3>";
-                temp += "<p>" + json[j].roles + "</p>";
-                temp += "</div>";
-            }
-            temp += "</td>"
+    var temp = "";
+    for (var i = 0; i < json.length; i++) {
+        categories = json[i].category;
+        if (!categories.includes(category) && category != "All") {
+            continue;
         }
-        temp += "</tr>";
+        else {
+            temp += "<div class=\"hoverbox\" onclick=\"loadItem('" + json[i].page + "')\">";
+            temp += "<img src=\"" + json[i].img + "\" width=\"100%\">";
+            temp += "<br /><br /><h3>" + json[i].name + "</h3>";
+            temp += "<p>" + json[i].roles + "</p>";
+            temp += "</div>";
+        }
     }
-    temp += "</table>";
     document.getElementById("portfolio").innerHTML = temp;
     document.getElementById(currentCategory).innerHTML = "<heading onclick=\"loadPortfolio('" + currentCategory + "')\">" + currentCategory + "</heading>";
     document.getElementById(category).innerHTML = "<heading style=\"font-family: RobotoBold, arial, sans-serif; color: var(--emerald)\" onclick=\"loadPortfolio('" + category + "')\">" + category + "</heading>";

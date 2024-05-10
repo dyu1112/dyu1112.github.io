@@ -69,6 +69,8 @@ body {
     margin: 0 auto;
     position: relative;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 @media only screen and (max-device-width: 1366px) {
@@ -170,6 +172,7 @@ heading {
     bottom: 0;
     padding: 40px 20% 20px 20%;
     box-shadow: 0px 0px 10px black;
+    margin-top: auto;
 }
 
 .footer-content {

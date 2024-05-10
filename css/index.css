@@ -1,7 +1,15 @@
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .hoverbox {
     background-color: var(--background);
-    padding: 20px 20px 20px 20px;
+    padding: 1%;
     transition: transform 0.2s;
+    width: 27%;
+    margin: 2%;
+    float: left;
 }
 
     .hoverbox:hover {
@@ -11,9 +19,16 @@
         transform: scale(1.03);
     }
 
-.portfolioItem {
-    padding: 20px 20px 20px 20px;
-    vertical-align: top;
+@media screen and (max-width: 1000px) {
+    .hoverbox {
+        width: 40%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .hoverbox {
+        width: 98%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
 }
 
 .categoryBox {
