@@ -184,6 +184,10 @@ heading {
     padding-left: 20px;
 }
 
+i:hover {
+    color: var(--emerald) !important;
+}
+
 hr {
     width: 100%;
 }
