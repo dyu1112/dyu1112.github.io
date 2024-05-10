@@ -115,6 +115,10 @@ a {
         color: white;
     }
 
+.invisibleLink {
+    cursor: pointer;
+}
+
 h1 {
     color: var(--emerald);
     font-family: MontserratBold, arial, sans-serif;
