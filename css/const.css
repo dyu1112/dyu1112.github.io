@@ -174,3 +174,8 @@ heading {
 .footer-content {
     margin: 0 auto;
 }
+
+.icon {
+    font-size: 12px;
+    padding-left: 20px;
+}
