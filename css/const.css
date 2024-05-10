@@ -105,6 +105,9 @@ body {
     li {
         font-size: 24px !important;
     }
+    body {
+        font-size: 24px !important;
+    }
 }
 
 .embed_video {
