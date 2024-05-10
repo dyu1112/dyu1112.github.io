@@ -183,3 +183,7 @@ heading {
     font-size: 12px;
     padding-left: 20px;
 }
+
+hr {
+    width: 100%;
+}
