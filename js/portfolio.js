@@ -21,7 +21,7 @@ data = [
     "page": "sorcerersmackdown.html",
     "img": "assets/sorcerersmackdown_preview.png",
     "category": [ "Game Programming", "Sound" ],
-    "tech": "C#, Unity 2D, Wwise"
+    "tech": "C#, Unity 2D, Wwise, Adobe Premiere Pro"
   },
   {
     "name": "Syncon",
@@ -37,7 +37,7 @@ data = [
     "page": "unspecifiedbridge.html",
     "img": "assets/unspecifiedbridge_preview.png",
     "category": [ "Game Programming" ],
-    "tech": "C#, Unity 3D, Maya"
+    "tech": "C#, Unity 3D, Autodesk Maya"
   },
   {
     "name": "Unnamed Surgeon Game",
@@ -77,7 +77,7 @@ data = [
     "page": "uscheduler.html",
     "img": "assets/uscheduler_preview.png",
     "category": [ "SWE" ],
-    "tech": "Java, MySQL Workbench"
+    "tech": "Java, Java Servlets, MySQL Workbench"
   },
   {
     "name": "Hear Your Fear",
@@ -85,7 +85,7 @@ data = [
     "page": "hearyourfear.html",
     "img": "assets/hearyourfear_preview.png",
     "category": [ "Game Programming", "Sound" ],
-    "tech": "C#, Unity 3D, Maya"
+    "tech": "C#, Unity 3D, Autodesk Maya"
   },
   {
     "name": "Bone Boy",
