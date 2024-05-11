@@ -16,7 +16,7 @@ window.onscroll = function () {
     if (prevScrollpos > currentScrollPos || currentScrollPos <= 0) {
         document.getElementsByClassName("headerBox")[0].style.top = "0";
     } else {
-        document.getElementsByClassName("headerBox")[0].style.top = "-100px";
+        document.getElementsByClassName("headerBox")[0].style.top = "-150px";
     }
     prevScrollpos = currentScrollPos;
 }
