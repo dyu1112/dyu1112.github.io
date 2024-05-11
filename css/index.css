@@ -4,7 +4,6 @@
 }
 
 .hoverbox {
-    background-color: var(--background);
     padding: 1%;
     transition: transform 0.2s;
     width: 27%;
@@ -21,13 +20,13 @@
 
 @media screen and (max-width: 1000px) {
     .hoverbox {
-        width: 40%; /* The width is 100%, when the viewport is 800px or smaller */
+        width: 44%; /* The width is 100%, when the viewport is 800px or smaller */
     }
 }
 
 @media screen and (orientation : portrait) {
     .hoverbox {
-        width: 40%; /* The width is 100%, when the viewport is 800px or smaller */
+        width: 44%; /* The width is 100%, when the viewport is 800px or smaller */
     }
 }
 
