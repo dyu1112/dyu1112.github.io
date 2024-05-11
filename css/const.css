@@ -208,6 +208,7 @@ heading {
     right: 0px;
     top: 0;
     transition: top 0.3s;
+    z-index: 999;
 }
 
 .menuItem {
