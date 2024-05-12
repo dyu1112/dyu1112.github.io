@@ -1,0 +1,55 @@
+.flex-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2vh 0;
+}
+
+li {
+    padding: 0.5% 0;
+}
+
+.flexList {
+    padding: 0 1%;
+    width: 44%;
+    margin: 0 2%;
+    float: left;
+}
+
+.flexCol-left {
+    width: 50%;
+    float: left;
+}
+.flexCol-right {
+    padding-left: 2%;
+    width: 48%;
+    float: left;
+    flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 720px) {
+    .flexList {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .flexCol-left {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .flexCol-right {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        padding-left: 0%;
+        padding-top: 1vh;
+    }
+}
+
+@media screen and (max-device-width: 720px) {
+    .flexList {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .flexCol-left {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .flexCol-right {
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+        padding-left: 0%;
+        padding-top: 1vh;
+    }
+}

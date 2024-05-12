@@ -73,7 +73,7 @@ body {
     flex-direction: column;
 }
 
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-width: 1200px) {
     body {
         background-attachment: scroll;
         background-size: auto;
@@ -81,6 +81,7 @@ body {
         padding-left: 5%;
         padding-right: 5%;
     }
+
     .headerBox {
         padding: 30px 5% !important;
     }
