@@ -3,6 +3,7 @@
 <head>
     <title>Syncon</title>
     <link rel="stylesheet" type="text/css" href="css/const.css">
+    <link rel="stylesheet" type="text/css" href="css/project.css">
     <link rel="icon" type="image/png" href="assets/icon.png">
     <script type="text/javascript" src="js/heading.js"></script>
     <script src="https://kit.fontawesome.com/7d29ad6950.js" crossorigin="anonymous"></script>
@@ -27,16 +28,8 @@
             </tr>
         </table>
     </div>
-    <br />
 
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <div style="background-color: var(--transparent); padding: 20px">
+    <div class="projectInfo">
         <table width="100%">
             <tr>
                 <td width="50%">
@@ -60,20 +53,15 @@
 
     <br /><br />
     <h3>Responsibilities:</h3>
-    <table style="width:100%">
-        <tr>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Implemented user-facing data collection and visualization through auto-generated scatter plot graphs</li>
-                </ul>
-            </td>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Created functionality for tracking the player's inter-onset interval between inputs over time to determine their ability to follow the tempo</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+    <div class="flex-wrapper">
+        <ul class="flexList">
+            <li>Implemented user-facing data collection and visualization through auto-generated scatter plot graphs</li>
+        </ul>
+        <ul class="flexList">
+            <li>Created functionality for tracking the player's inter-onset interval between inputs over time to determine their ability to follow the tempo</li>
+        </ul>
+    </div>
+
     <p>
         Created for PSYC-215: Music, Mind, and the Brain.
         <i>Syncon</i> is a rhythm game inspired by music psychology research on synchronization-continuation:

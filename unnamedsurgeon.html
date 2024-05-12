@@ -3,6 +3,7 @@
 <head>
     <title>Unnamed Surgeon Game</title>
     <link rel="stylesheet" type="text/css" href="css/const.css">
+    <link rel="stylesheet" type="text/css" href="css/project.css">
     <link rel="icon" type="image/png" href="assets/icon.png">
     <script type="text/javascript" src="js/heading.js"></script>
     <script src="https://kit.fontawesome.com/7d29ad6950.js" crossorigin="anonymous"></script>
@@ -27,16 +28,8 @@
             </tr>
         </table>
     </div>
-    <br />
 
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <div style="background-color: var(--transparent); padding: 20px">
+    <div class="projectInfo">
         <table>
             <tr>
                 <td width="50%">
@@ -60,23 +53,18 @@
 
     <br /><br />
     <h3>Responsibilities:</h3>
-    <table style="width:100%">
-        <tr>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Implemented most gameplay features within the last 3 hours</li>
-                    <li>Implemented functionality for picking up and placing down interactable items</li>
-                    <li>Recorded and implemented voiceover for all sound effects</li>
-                </ul>
-            </td>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Implemented a win/lose condition and lives system</li>
-                    <li>Implemented a gradually dimming light that can be reactivated through interaction</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+    <div class="flex-wrapper">
+        <ul class="flexList">
+            <li>Implemented most gameplay features within the last 3 hours</li>
+            <li>Implemented functionality for picking up and placing down interactable items</li>
+            <li>Recorded and implemented voiceover for all sound effects</li>
+        </ul>
+        <ul class="flexList">
+            <li>Implemented a win/lose condition and lives system</li>
+            <li>Implemented a gradually dimming light that can be reactivated through interaction</li>
+        </ul>
+    </div>
+
     <p>
         Entry to the 2024 Global Game Jam at USC Games, with the theme requirement: "Make Me Laugh."
         In this game, the player needs to find surgical instruments that make funny sounds to keep the light on. If the light goes off, the player loses a life. The player loses when they run out of lives or the light remains off for too long.

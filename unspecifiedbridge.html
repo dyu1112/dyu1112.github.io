@@ -3,6 +3,7 @@
 <head>
     <title>Try Not To Hit [An Unspecified] Bridge</title>
     <link rel="stylesheet" type="text/css" href="css/const.css">
+    <link rel="stylesheet" type="text/css" href="css/project.css">
     <link rel="icon" type="image/png" href="assets/icon.png">
     <script type="text/javascript" src="js/heading.js"></script>
     <script src="https://kit.fontawesome.com/7d29ad6950.js" crossorigin="anonymous"></script>
@@ -27,16 +28,8 @@
             </tr>
         </table>
     </div>
-    <br />
 
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <div style="background-color: var(--transparent); padding: 20px">
+    <div class="projectInfo">
         <table>
             <tr>
                 <td width="50%">
@@ -60,23 +53,18 @@
 
     <br /><br />
     <h3>Responsibilities:</h3>
-    <table style="width:100%">
-        <tr>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Implemented 3D drag and drop functionality that retains collision detection</li>
-                    <li>Implemented collision-based win/lose conditions</li>
-                </ul>
-            </td>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Modeled all 3D art assets and created all 2D UI assets</li>
-                    <li>Implemented all menus and UI functionality</li>
-                    <li>Implemented all sound assets</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+    <div class="flex-wrapper">
+        <ul class="flexList">
+            <li>Implemented 3D drag and drop functionality that retains collision detection</li>
+            <li>Implemented collision-based win/lose conditions</li>
+        </ul>
+        <ul class="flexList">
+            <li>Modeled all 3D art assets and created all 2D UI assets</li>
+            <li>Implemented all menus and UI functionality</li>
+            <li>Implemented all sound assets</li>
+        </ul>
+    </div>
+
     <p>
         Entry to the MEGA April Fools Game Jam 2024 with the theme requirement: "Oh No." Awarded "Best Overall" and "Best Game Design."
         Your cargo ship has run out of power and is headed straight toward [an unspecified] Bridge! Use your mouse to move the cargo on board to control the ship's balance and steer it in the correct direction. Beware of birds flying around trying to snatch your cargo! Smack birds with cargo to ward them off. Be careful! If the ship is too unbalanced, it may capsize.

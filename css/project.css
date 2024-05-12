@@ -1,3 +1,15 @@
+.projectInfo {
+    margin-top: 16vh;
+    background-color: var(--transparent);
+    padding: 20px
+}
+
+@media only screen and (max-device-width: 720px) {
+    .projectInfo {
+        margin-top: 12vh;
+    }
+}
+
 .flex-wrapper {
     display: flex;
     flex-wrap: wrap;

@@ -3,6 +3,7 @@
 <head>
     <title>ITP 438 - Advanced Gameplay Programming</title>
     <link rel="stylesheet" type="text/css" href="css/const.css">
+    <link rel="stylesheet" type="text/css" href="css/project.css">
     <link rel="icon" type="image/png" href="assets/icon.png">
     <script type="text/javascript" src="js/heading.js"></script>
     <script src="https://kit.fontawesome.com/7d29ad6950.js" crossorigin="anonymous"></script>
@@ -27,16 +28,8 @@
             </tr>
         </table>
     </div>
-    <br />
 
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <div style="background-color: var(--transparent); padding: 20px">
+    <div class="projectInfo">
         <table>
             <tr>
                 <td width="50%">
@@ -58,42 +51,36 @@
 
     <br /><br />
     <h3>Responsibilities:</h3>
-    <table style="width:100%">
-        <tr>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>
-                        Implemented a 3rd-person interaction system that chooses the closest interactable object that is
-                        most directly in front of the player and within range
-                    </li>
-                    <li>Implemented dash, death, crouch, and prone animations and states</li>
-                    <li>
-                        Tracked and updated the player's "threat level", such that crouching, being prone, and standing in
-                        stealth box areas decreased threat level, and moving increases threat level
-                    </li>
-                    <li>
-                        Implemented enemy AI through a behavior tree with two states, Chase and Patrol, based on the player's
-                        threat level and whether the player is within the enemy's line of sight
-                    </li>
-                    <li>Implemented listen server networking with Steam and dedicated server networking</li>
-                    <li>Implemented fair team-making and spawning</li>
-                </ul>
-            </td>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Replicated each team's overall score across all clients and kept track of each client's individual score</li>
-                    <li>
-                        Implemented respawns in different locations if an opponent is too close to the player's team's spawn point
-                        to prevent spawn camping
-                    </li>
-                    <li>Implemented a match chat viewable by everybody and a team chat viewable by the player's team</li>
-                    <li>Utilized Online Subsystem Steam to allow players to search and join their Steam friend's session</li>
-                    <li>Added the ability to spray tags in the world and autosave the tags's locations to be loaded in future matches</li>
-                    <li>Added the ability to launch a grenade that kills all players within a certain range after 3 seconds</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+    <div class="flex-wrapper">
+        <ul class="flexList">
+            <li>
+                Implemented a 3rd-person interaction system that chooses the closest interactable object that is
+                most directly in front of the player and within range
+            </li>
+            <li>Implemented dash, death, crouch, and prone animations and states</li>
+            <li>
+                Tracked and updated the player's "threat level", such that crouching, being prone, and standing in
+                stealth box areas decreased threat level, and moving increases threat level
+            </li>
+            <li>
+                Implemented enemy AI through a behavior tree with two states, Chase and Patrol, based on the player's
+                threat level and whether the player is within the enemy's line of sight
+            </li>
+            <li>Implemented listen server networking with Steam and dedicated server networking</li>
+            <li>Implemented fair team-making and spawning</li>
+        </ul>
+        <ul class="flexList">
+            <li>Replicated each team's overall score across all clients and kept track of each client's individual score</li>
+            <li>
+                Implemented respawns in different locations if an opponent is too close to the player's team's spawn point
+                to prevent spawn camping
+            </li>
+            <li>Implemented a match chat viewable by everybody and a team chat viewable by the player's team</li>
+            <li>Utilized Online Subsystem Steam to allow players to search and join their Steam friend's session</li>
+            <li>Added the ability to spray tags in the world and autosave the tags's locations to be loaded in future matches</li>
+            <li>Added the ability to launch a grenade that kills all players within a certain range after 3 seconds</li>
+        </ul>
+    </div>
 
     <br />
     <br />

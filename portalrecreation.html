@@ -3,6 +3,7 @@
 <head>
     <title>Portal Recreation</title>
     <link rel="stylesheet" type="text/css" href="css/const.css">
+    <link rel="stylesheet" type="text/css" href="css/project.css">
     <link rel="icon" type="image/png" href="assets/icon.png">
     <script type="text/javascript" src="js/heading.js"></script>
     <script src="https://kit.fontawesome.com/7d29ad6950.js" crossorigin="anonymous"></script>
@@ -27,16 +28,8 @@
             </tr>
         </table>
     </div>
-    <br />
 
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <div style="background-color: var(--transparent); padding: 20px">
+    <div class="projectInfo">
         <table width="100%">
             <tr>
                 <td width="50%">
@@ -60,22 +53,17 @@
 
     <br /><br />
     <h3>Responsibilities:</h3>
-    <table style="width:100%">
-        <tr>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Programmed all core functionality in C++ with the SDL Library</li>
-                    <li>Implemented an AI state machine to control sentry turret searching, priming, firing, and death</li>
-                </ul>
-            </td>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Utilized view matrices and quaternions to calculate and create portal views</li>
-                    <li>Implemented player movement with forces, FPS controls, and 3D box collision</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+    <div class="flex-wrapper">
+        <ul class="flexList">
+            <li>Programmed all core functionality in C++ with the SDL Library</li>
+            <li>Implemented an AI state machine to control sentry turret searching, priming, firing, and death</li>
+        </ul>
+        <ul class="flexList">
+            <li>Utilized view matrices and quaternions to calculate and create portal views</li>
+            <li>Implemented player movement with forces, FPS controls, and 3D box collision</li>
+        </ul>
+    </div>
+
     <p>
         Created for ITP380: Video Game Programming.
         Press P to activate input replay. Press F5 to reload the level.

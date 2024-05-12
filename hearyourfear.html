@@ -3,6 +3,7 @@
 <head>
     <title>Hear Your Fear</title>
     <link rel="stylesheet" type="text/css" href="css/const.css">
+    <link rel="stylesheet" type="text/css" href="css/project.css">
     <link rel="icon" type="image/png" href="assets/icon.png">
     <script type="text/javascript" src="js/heading.js"></script>
     <script src="https://kit.fontawesome.com/7d29ad6950.js" crossorigin="anonymous"></script>
@@ -36,7 +37,7 @@
     <br />
     <br />
 
-    <div style="background-color: var(--transparent); padding: 20px">
+    <div class="projectInfo">
         <table width="100%">
             <tr>
                 <td width="50%">
@@ -62,32 +63,27 @@
 
     <br /><br />
     <h3>Responsibilities:</h3>
-    <table style="width:100%">
-        <tr>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Collaborated with one programmer to create a game from ideation, to production, to release</li>
-                    <li>Created all 3D models and environments in Autodesk Maya</li>
-                    <li>Implemented a pathing system in C# that allows for enemies to follow fixed paths</li>
-                    <li>Implemented the main menu</li>
-                    <li>Implemented player movement</li>
-                    <li>Worked under the Agile design methodology</li>
-                    <li>Implemented a layered audio track system using Unity's built-in sound engine</li>
-                    <li>Collaborated with the audio team to determine and communicate audio needs</li>
-                </ul>
-            </td>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Implemented a level manager, game manager, and audio manager</li>
-                    <li>Created and implemented all HUD assets, including a healthbar and hint text</li>
-                    <li>Facilitated weekly playtests and analyzed player feedback to iterate on the game's design</li>
-                    <li>Implemented all sound effects and music, and finetuned spatial audio distance attenuation</li>
-                    <li>Debugged and finetuned the player vision's raycasting</li>
-                    <li>Optimized performance, memory usage, and file size through texture and mesh compression, polygon reduction, and other graphical improvements</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+    <div class="flex-wrapper">
+        <ul class="flexList">
+            <li>Collaborated with one programmer to create a game from ideation, to production, to release</li>
+            <li>Created all 3D models and environments in Autodesk Maya</li>
+            <li>Implemented a pathing system in C# that allows for enemies to follow fixed paths</li>
+            <li>Implemented the main menu</li>
+            <li>Implemented player movement</li>
+            <li>Worked under the Agile design methodology</li>
+            <li>Implemented a layered audio track system using Unity's built-in sound engine</li>
+            <li>Collaborated with the audio team to determine and communicate audio needs</li>
+        </ul>
+        <ul class="flexList">
+            <li>Implemented a level manager, game manager, and audio manager</li>
+            <li>Created and implemented all HUD assets, including a healthbar and hint text</li>
+            <li>Facilitated weekly playtests and analyzed player feedback to iterate on the game's design</li>
+            <li>Implemented all sound effects and music, and finetuned spatial audio distance attenuation</li>
+            <li>Debugged and finetuned the player vision's raycasting</li>
+            <li>Optimized performance, memory usage, and file size through texture and mesh compression, polygon reduction, and other graphical improvements</li>
+        </ul>
+    </div>
+
     <p>
         Created for CTIN-489: Intermediate Game Design and Production.
         In the game, the player must escape a house infested by creatures called Wards and Blinders. These creatures cast a curse upon the player when they are exposed to light, so the player must use their flashlight wisely to avoid them. To make their way around the house, the player must listen for audio cues that tell the player about the location of switches, doors, traps, medicine, and monsters.

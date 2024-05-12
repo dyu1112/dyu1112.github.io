@@ -3,6 +3,7 @@
 <head>
     <title>Cellulose</title>
     <link rel="stylesheet" type="text/css" href="css/const.css">
+    <link rel="stylesheet" type="text/css" href="css/project.css">
     <link rel="icon" type="image/png" href="assets/icon.png">
     <script type="text/javascript" src="js/heading.js"></script>
     <script src="https://kit.fontawesome.com/7d29ad6950.js" crossorigin="anonymous"></script>
@@ -27,16 +28,8 @@
             </tr>
         </table>
     </div>
-    <br />
 
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <div style="background-color: var(--transparent); padding: 20px">
+    <div class="projectInfo">
         <table>
             <tr>
                 <td width="50%">
@@ -62,24 +55,19 @@
 
     <br /><br />
     <h3>Responsibilities:</h3>
-    <table style="width:100%">
-        <tr>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Composed and implemented the entire soundtrack, consisting of 4 tracks total, with additional mixing in Audacity</li>
-                    <li>Programmed the Lives and Score systems, as well as a Game Over state</li>
-                    <li>Implemented and programmed all UI, including the HUD, main menu, and pause menu</li>
-                </ul>
-            </td>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Implemented a toggle that allows players to switch between 8-bit and non-8-bit soundtracks</li>
-                    <li>Fixed collision issues in the 1.1 update</li>
-                    <li>Fixed all WebGL builds and crashes in the 1.1 update</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+    <div class="flex-wrapper">
+        <ul class="flexList">
+            <li>Composed and implemented the entire soundtrack, consisting of 4 tracks total, with additional mixing in Audacity</li>
+            <li>Programmed the Lives and Score systems, as well as a Game Over state</li>
+            <li>Implemented and programmed all UI, including the HUD, main menu, and pause menu</li>
+        </ul>
+        <ul class="flexList">
+            <li>Implemented a toggle that allows players to switch between 8-bit and non-8-bit soundtracks</li>
+            <li>Fixed collision issues in the 1.1 update</li>
+            <li>Fixed all WebGL builds and crashes in the 1.1 update</li>
+        </ul>
+    </div>
+
     <p>
         Entry to the Open Alpha Open Game Jam 2022 with the theme requirement: "Mini." Awarded "Best Sound," "Best Design," and "Best Mechanics."
         In the game, you play as Viri the virus. You can infect cells by entering their nuclei to take control of them to destroy other cells. The objective is to destroy as many cells as you can and survive as long as you can.

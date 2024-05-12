@@ -3,6 +3,7 @@
 <head>
     <title>USCheduler</title>
     <link rel="stylesheet" type="text/css" href="css/const.css">
+    <link rel="stylesheet" type="text/css" href="css/project.css">
     <link rel="icon" type="image/png" href="assets/icon.png">
     <script type="text/javascript" src="js/heading.js"></script>
     <script src="https://kit.fontawesome.com/7d29ad6950.js" crossorigin="anonymous"></script>
@@ -27,16 +28,8 @@
             </tr>
         </table>
     </div>
-    <br />
 
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
-    <div style="background-color: var(--transparent); padding: 20px">
+    <div class="projectInfo">
         <table width="100%">
             <tr>
                 <td width="50%">
@@ -58,22 +51,17 @@
 
     <br /><br />
     <h3>Responsibilities:</h3>
-    <table style="width:100%">
-        <tr>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Created 4 Java Servlets on the backend to allow for access to the MySQL database</li>
-                    <li>Created input validation for registering, logging in, and creating events</li>
-                </ul>
-            </td>
-            <td width="50%" style="vertical-align: top">
-                <ul>
-                    <li>Implemented functionality to a JDBC connector class to retrieve all events on a specified date</li>
-                    <li>Created weekly documentation under the Waterfall design methodology</li>
-                </ul>
-            </td>
-        </tr>
-    </table>
+    <div class="flex-wrapper">
+        <ul class="flexList">
+            <li>Created 4 Java Servlets on the backend to allow for access to the MySQL database</li>
+            <li>Created input validation for registering, logging in, and creating events</li>
+        </ul>
+        <ul class="flexList">
+            <li>Implemented functionality to a JDBC connector class to retrieve all events on a specified date</li>
+            <li>Created weekly documentation under the Waterfall design methodology</li>
+        </ul>
+    </div>
+
     <p>
         Created for CSCI-201: Principles of Software Development.
         USCheduler is a web application using Java Servlets on the backend with Apache Tomcat. USCheduler allows guests and authenticated users to view scheduled fundraisers on a public calendar. Authenticated users can add their own fundraisers to the public calendar for everyone to see.
