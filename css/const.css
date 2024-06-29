@@ -1,8 +1,8 @@
 :root {
-    --emerald: #00E8BE;
-    --text: white;
-    --background: #1E2024;
-    --transparent: #40464a;
+    --blue: #4c92d9;
+    --black: black;
+    --offwhite: #F4F0E7;
+    --orange: #ff8652;
 }
 
 @font-face {
@@ -20,27 +20,6 @@
     src: url('Montserrat-Bold.ttf') format('truetype');
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: var(--background);
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: var(--transparent);
-    border-radius: 20px;
-}
-
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-        background: #5f6d75;
-    }
-
 html {
     overflow-y: scroll;
 }
@@ -55,13 +34,12 @@ html {
 }
 
 body {
-    background-color: var(--background);
-    background-image: url("../assets/background.png");
+    background-color: var(--offwhite);
+    background-image: url(../assets/background.png);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
-    color: var(--text);
+    color: var(--black);
     font-family: Roboto, arial, sans-serif;
     font-size: 16px;
     padding-left: 20%;
@@ -83,7 +61,7 @@ body {
     }
 
     .headerBox {
-        padding: 3vh 5% !important;
+        padding: 3vh 1.8vw !important;
     }
 }
 
@@ -113,7 +91,7 @@ body {
         font-size: 24px !important;
     }
     .headerBox {
-        padding: 3vh 5% !important;
+        padding: 3vh 2vw !important;
     }
     .footer {
         padding: 60px 20% 40px 20% !important;
@@ -127,9 +105,9 @@ body {
 }
 
 .light-mode {
-    --background: white;
-    --text: #2a353b;
-    --emerald: #00c295;
+    --offwhite: white;
+    --black: #2a353b;
+    --blue: #00c295;
 }
 
 li {
@@ -138,10 +116,12 @@ li {
 }
 
 p {
+    font-family: Roboto, arial, sans-serif;
     line-height: 1.6;
     font-size: 20px;
     margin-bottom: 5px;
     margin-top: 5px;
+    color: var(--black);
 }
 
 p2 {
@@ -151,24 +131,33 @@ p2 {
     margin-bottom: 5px;
     margin-top: 5px;
     opacity: 40%;
+    color: var(--black);
 }
 
 a {
-    color: var(--emerald);
+    color: var(--blue);
     font-family: RobotoBold, arial, sans-serif;
     text-decoration: none;
 }
 
     a:hover {
-        color: white;
+        color: var(--orange);
+        text-decoration: underline;
     }
 
 .invisibleLink {
-    cursor: pointer;
+    color: var(--black);
+    font-family: MontserratBold, arial, sans-serif;
+    font-size: 28px;
 }
 
+    .invisibleLink:hover {
+        color: var(--black);
+        text-decoration: none;
+    }
+
 h1 {
-    color: var(--emerald);
+    color: var(--blue);
     font-family: MontserratBold, arial, sans-serif;
     font-weight: normal;
 }
@@ -179,7 +168,7 @@ h2 {
 }
 
 h3 {
-    color: var(--emerald);
+    color: var(--blue);
     font-family: MontserratBold, arial, sans-serif;
     font-weight: normal;
     font-size: 22px;
@@ -187,29 +176,39 @@ h3 {
     margin-top: 0px;
 }
 
-heading {
+.heading {
     font-family: Roboto, arial, sans-serif;
     font-size: 20px;
     font-weight: normal;
+    color: var(--black);
 }
 
-    heading:hover {
-        color: var(--emerald);
-        cursor: pointer;
+    .heading:hover {
+        text-decoration: none;
     }
 
 .headerBox {
-    font-family: MontserratBold, arial, sans-serif;
-    font-size: 28px;
-    padding: 3vh 20%;
-    background-color: var(--transparent);
-    box-shadow: 0px 0px 10px black;
+    padding: 3vh 16.5vw;
     position: fixed;
-    left: 0px;
-    right: 0px;
     top: 0;
+    left: 0;
+    right: 0;
     transition: top 0.3s;
     z-index: 999;
+}
+
+.stylizedHeader {
+    background: var(--offwhite);
+    padding: 3vh 3vw;
+    border: solid;
+    border-width: 2px;
+    border-color: var(--black);
+    box-shadow: 5px 5px var(--black);
+    border-radius: 30px;
+    background-image: url("../assets/projectInfo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .menuItem {
@@ -218,13 +217,11 @@ heading {
 }
 
 .footer {
-    background-color: var(--transparent);
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
     padding: 40px 20% 20px 20%;
-    box-shadow: 0px 0px 10px black;
     margin-top: auto;
 }
 
@@ -237,10 +234,23 @@ heading {
     padding-left: 20px;
 }
 
-i:hover {
-    color: var(--emerald) !important;
+i {
+    color: var(--black);
 }
+
+    i:hover {
+        color: var(--orange) !important;
+    }
 
 hr {
     width: 100%;
+}
+
+.headshot {
+    display: block;
+    border-radius: 360px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--black);
+    box-shadow: 5px 5px black;
 }

@@ -7,26 +7,35 @@
     padding: 1%;
     transition: transform 0.2s;
     width: 27%;
-    margin: 2%;
+    margin: 1.9%;
     float: left;
+    background-color: var(--offwhite);
+    border-color: var(--offwhite);
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--black);
+    box-shadow: 5px 5px black;
+    background-image: url("../assets/projectInfo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
     .hoverbox:hover {
         cursor: pointer;
-        background-color: var(--transparent);
-        box-shadow: 3px 3px 8px black;
         transform: scale(1.03);
+        text-decoration: none;
     }
 
 @media screen and (max-width: 1000px) {
     .hoverbox {
-        width: 44%; /* The width is 100%, when the viewport is 800px or smaller */
+        width: 43%; /* The width is 100%, when the viewport is 800px or smaller */
     }
 }
 
 @media screen and (orientation : portrait) {
     .hoverbox {
-        width: 44%; /* The width is 100%, when the viewport is 800px or smaller */
+        width: 43%; /* The width is 100%, when the viewport is 800px or smaller */
     }
 }
 
@@ -37,6 +46,21 @@
 }
 
 .categoryItem {
-    padding-left: 20px;
+    font-family: Roboto, arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 5px 15px;
     text-align: left;
+    background: lightgrey;
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--black);
+    box-shadow: 3px 3px black;
+    margin-right: 6px;
 }
+
+    .categoryItem:hover {
+        cursor: pointer;
+        background: var(--orange);
+    }

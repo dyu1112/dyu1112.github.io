@@ -1,7 +1,16 @@
 .projectInfo {
     margin-top: 16vh;
-    background-color: var(--transparent);
-    padding: 20px
+    background-color: var(--offwhite);
+    background-image: url("../assets/projectInfo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border: solid;
+    border-width: 2px;
+    border-color: var(--black);
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 5px 5px black;
 }
 
 @media only screen and (max-device-width: 720px) {
