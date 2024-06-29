@@ -10,7 +10,7 @@
     border-color: var(--black);
     border-radius: 30px;
     padding: 20px;
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px var(--black);
 }
 
 @media only screen and (max-device-width: 720px) {

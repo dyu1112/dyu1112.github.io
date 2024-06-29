@@ -14,7 +14,7 @@
     border-width: 2px;
     border-style: solid;
     border-color: var(--black);
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px var(--black);
     background-image: url("../assets/projectInfo.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -56,7 +56,7 @@
     border-width: 2px;
     border-style: solid;
     border-color: var(--black);
-    box-shadow: 3px 3px black;
+    box-shadow: 3px 3px var(--black);
     margin-right: 6px;
 }
 

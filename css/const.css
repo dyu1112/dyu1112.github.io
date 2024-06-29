@@ -1,6 +1,6 @@
 :root {
-    --blue: #4c92d9;
-    --black: black;
+    --blue: #3392d6;
+    --black: #332117;
     --offwhite: #F4F0E7;
     --orange: #E68B3D;
 }
@@ -147,13 +147,12 @@ p2 {
 }
 
 a {
-    color: var(--blue);
+    color: var(--orange);
     font-family: RobotoBold, arial, sans-serif;
     text-decoration: none;
 }
 
     a:hover {
-        color: var(--orange);
         text-decoration: underline;
     }
 
@@ -188,6 +187,15 @@ h3 {
     margin-top: 0px;
 }
 
+h4 {
+    color: var(--black);
+    font-family: MontserratBold, arial, sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
 .heading {
     font-family: Roboto, arial, sans-serif;
     font-size: 20px;
@@ -196,6 +204,7 @@ h3 {
 }
 
     .heading:hover {
+        color: var(--orange);
         text-decoration: none;
     }
 
@@ -269,5 +278,6 @@ hr {
     border-width: 2px;
     border-style: solid;
     border-color: var(--black);
-    box-shadow: 5px 5px black;
+    box-shadow: 5px 5px var(--black);
+    ;
 }

@@ -10,8 +10,8 @@ function loadPortfolio(category) {
         else {
             temp += "<a class=\"hoverbox\" href=\"" + data[i].page + "\">";
             temp += "<img src=\"" + data[i].img + "\" width=\"100%\">";
-            temp += "<br /><br /><h3>" + data[i].name + "</h3>";
-            temp += "<p>" + data[i].roles + "</p>";
+            temp += "<br /><h4>" + data[i].name + "</h4>";
+            temp += "<p style=\"color: var(--blue)\">" + data[i].roles + "</p>";
             temp += "<p2>" + data[i].tech + "</p2>";
             temp += "</div>";
         }
