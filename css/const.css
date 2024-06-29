@@ -72,6 +72,9 @@ body {
     .icon {
         font-size: 18px !important;
     }
+    .footer-icon {
+        font-size: 32px !important;
+    }
     h3 {
         font-size: 28px !important;
     }
@@ -227,6 +230,11 @@ h3 {
 
 .footer-content {
     margin: 0 auto;
+}
+
+.footer-icon {
+    font-size: 20px;
+    padding: 0px 10px
 }
 
 .icon {
