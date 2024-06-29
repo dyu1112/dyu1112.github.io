@@ -19,6 +19,12 @@
     }
 }
 
+@media only screen and (max-device-width: 420px) {
+    .projectInfo {
+        margin-top: 8vh;
+    }
+}
+
 .flex-wrapper {
     display: flex;
     flex-wrap: wrap;

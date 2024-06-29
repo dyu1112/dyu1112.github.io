@@ -101,6 +101,15 @@ body {
     }
 }
 
+@media only screen and (max-device-width: 420px) {
+    .headerBox {
+        padding: 1.5vh 2vw !important;
+    }
+    .stylizedHeader {
+        padding: 2vh 3vw !important;
+    }
+}
+
 .embed_video {
     aspect-ratio: 16/9;
     border: none;
