@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+    <title>Iron Testament</title>
+    <link rel="stylesheet" type="text/css" href="css/const.css">
+    <link rel="stylesheet" type="text/css" href="css/project.css">
+    <link rel="icon" type="image/png" href="assets/icon.png">
+    <script type="text/javascript" src="js/heading.js"></script>
+    <script src="https://kit.fontawesome.com/7d29ad6950.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="headerBox">
+        <div class="stylizedHeader">
+            <a class="invisibleLink" href="index.html">Daniel Yu</a>
+            <table style="float:right">
+                <tr>
+                    <td class="menuItem"><a class="heading" href="index.html">Projects</a></td>
+                    <td class="menuItem"><a class="heading" href="cv.html">CV</a></td>
+                    <td class="menuItem"><a class="heading" href="about.html">About Me</a></td>
+                    <td class="icon">
+                        <a href="https://www.linkedin.com/in/daniel-yu-aa4b8420b/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                    </td>
+                    <td class="icon">
+                        <a href="https://github.com/dyu1112" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+                    </td>
+                    <td class="icon">
+                        <a href="mailto:danielyu742@outlook.com" target="_blank"><i class="fa-solid fa-envelope fa-2xl"></i></a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="projectInfo">
+        <table width="100%">
+            <tr>
+                <td width="50%">
+                    <h1>Iron Testament</h1>
+                    <p>
+                        Role(s): AI Programmer
+                        <br />
+                        Technologies Used: C#, Unity 3D, State Machines
+                        <br />
+                        Apr. 2024 - Present
+                        <br />
+                        <a href="https://www.rat-economy.com/" target="_blank">Website</a>
+                    </p>
+                </td>
+                <td width="50%">
+                    
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <br /><br />
+    <h3>Responsibilities:</h3>
+    <div class="flex-wrapper">
+        <ul class="flexList">
+            <li>Designed and implemented turn-based enemy AI with state machines that decides whether to attack, flee, or assist</li>
+        </ul>
+        <ul class="flexList">
+            <li>Implemented level display and selection UI</li>
+        </ul>
+    </div>
+
+    <p>
+        <i>Iron Testament</i> is an upcoming turn-based strategy game that takes place in a post-apocolyptic future. You play as the last human left on Earth after a robot uprising, and leading a fringe sect of life-worshiping robots, you must take back the planet for the Children of Flesh.
+    </p>
+
+    <br />
+    <hr />
+    <br />
+
+    <h3>Enemy AI</h3>
+    <div class="flex-wrapper">
+        <div class="flexCol-left">
+            <iframe width="100%" class="embed_video" src="https://www.youtube.com/embed/erfyGxy1-xA?si=nk_iRAJ0S8x9DPkX" allowfullscreen></iframe>
+        </div>
+        <div class="flexCol-right">
+            <p>I began by creating a <a href="https://www.figma.com/board/r6WashTMeqe5iMqaBHpnZE/IronTestament-EnemyAI?node-id=0-1&t=HFH1NMstaSTydXfg-1" target="_blank">FigJam board</a> to design the state machine and iterate before implementing. In a Neutral state, enemies won't do anything. In a Confused state, enemies will target each other. If there is a player unit nearby, enemies will enter the Offense state to attack the player. If an enemy is at low health, it will enter the SeekAssistance state to flee to an ally. Likewise, if a nearby ally needs assistance or is on the offense, an enemy will enter the Assist state to join them.</p>
+        </div>
+    </div>
+    <p>For implementation, I used nested coroutines to execute each enemy's actions in sequence. Each turn, an enemy will use as many Action Points (currency for actions and movement) as possible to achieve its goal</p>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="footer">
+        <table class="footer-content">
+            <tr>
+                <td class="footer-icon">
+                    <a href="https://www.linkedin.com/in/daniel-yu-aa4b8420b/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                </td>
+                <td class="footer-icon">
+                    <a href="https://github.com/dyu1112" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+                </td>
+                <td class="footer-icon">
+                    <a href="mailto:danielyu742@outlook.com" target="_blank"><i class="fa-solid fa-envelope fa-2xl"></i></a>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <p style="text-align: center; opacity: 40%">&copy 2024 Daniel Yu. All Rights Reserved</p>
+    </div>
+</body>
+</html>

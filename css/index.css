@@ -3,10 +3,17 @@
     flex-wrap: wrap;
 }
 
+.portfolioImg {
+    border-radius: 28px 28px 0 0;
+}
+
+.portfolioContent {
+    padding: 0 14px 14px 14px;
+}
+
 .hoverbox {
-    padding: 1%;
     transition: transform 0.2s;
-    width: 27%;
+    width: 43%;
     margin: 1.9%;
     float: left;
     background-color: var(--offwhite);
@@ -14,7 +21,8 @@
     border-width: 2px;
     border-style: solid;
     border-color: var(--black);
-    box-shadow: 5px 5px black;
+    border-radius: 30px;
+    box-shadow: 5px 5px var(--black);
     background-image: url("../assets/projectInfo.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,13 +37,13 @@
 
 @media screen and (max-width: 1000px) {
     .hoverbox {
-        width: 43%; /* The width is 100%, when the viewport is 800px or smaller */
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
 }
 
 @media screen and (orientation : portrait) {
     .hoverbox {
-        width: 43%; /* The width is 100%, when the viewport is 800px or smaller */
+        width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
 }
 
