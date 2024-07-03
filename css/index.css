@@ -41,7 +41,7 @@
         width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
     .portfolioImg {
-        height: 50vw;
+        height: 35vw;
     }
 }
 
@@ -50,7 +50,7 @@
         width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
     .portfolioImg {
-        height: 35vw;
+        height: 40vw;
     }
 }
 
