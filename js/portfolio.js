@@ -4,7 +4,7 @@ data = [
         "roles": "Programmer",
         "page": "momentum.html",
         "img": "assets/momentum_preview.png",
-        "category": ["Programmer"],
+        "category": ["Game Programming"],
         "tech": "C#, Unity 3D"
     },
     {
