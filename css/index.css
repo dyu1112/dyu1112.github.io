@@ -5,6 +5,7 @@
 
 .portfolioImg {
     border-radius: 28px 28px 0 0;
+    object-fit: cover;
 }
 
 .portfolioContent {
@@ -35,15 +36,21 @@
         text-decoration: none;
     }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 420px) {
     .hoverbox {
         width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
     }
+    .portfolioImg {
+        height: 50vw;
+    }
 }
 
-@media screen and (orientation : portrait) {
+@media screen and (max-device-width: 420px) {
     .hoverbox {
         width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .portfolioImg {
+        height: 35vw;
     }
 }
 

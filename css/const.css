@@ -56,8 +56,8 @@ body {
         background-attachment: scroll;
         background-size: auto;
         background-repeat: repeat;
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 7%;
+        padding-right: 7%;
     }
 
     .headerBox {
@@ -107,6 +107,9 @@ body {
     }
     .stylizedHeader {
         padding: 2vh 3vw !important;
+    }
+    h4 {
+        font-size: 32px !important;
     }
 }
 

@@ -49,7 +49,7 @@
                     </p>
                 </td>
                 <td width="50%">
-                    
+                    <iframe width="100%" class="embed_video" src="https://www.youtube.com/embed/MPCVFfK_RUU?si=nk_iRAJ0S8x9DPkX" allowfullscreen></iframe>
                 </td>
             </tr>
         </table>
@@ -77,13 +77,13 @@
     <h3>Enemy AI</h3>
     <div class="flex-wrapper">
         <div class="flexCol-left">
-            <iframe width="100%" class="embed_video" src="https://www.youtube.com/embed/erfyGxy1-xA?si=nk_iRAJ0S8x9DPkX" allowfullscreen></iframe>
+            <iframe width="100%" class="embed_video" src="https://www.youtube.com/embed/rqP0pD-bNJc?si=nk_iRAJ0S8x9DPkX" allowfullscreen></iframe>
         </div>
         <div class="flexCol-right">
             <p>I began by creating a <a href="https://www.figma.com/board/r6WashTMeqe5iMqaBHpnZE/IronTestament-EnemyAI?node-id=0-1&t=HFH1NMstaSTydXfg-1" target="_blank">FigJam board</a> to design the state machine and iterate before implementing. In a Neutral state, enemies won't do anything. In a Confused state, enemies will target each other. If there is a player unit nearby, enemies will enter the Offense state to attack the player. If an enemy is at low health, it will enter the SeekAssistance state to flee to an ally. Likewise, if a nearby ally needs assistance or is on the offense, an enemy will enter the Assist state to join them.</p>
         </div>
     </div>
-    <p>For implementation, I used nested coroutines to execute each enemy's actions in sequence. Each turn, an enemy will use as many Action Points (currency for actions and movement) as possible to achieve its goal</p>
+    <p>For implementation, I used nested coroutines to execute each enemy's actions in sequence. Each turn, an enemy will use as many Action Points (currency for actions and movement) as possible to achieve its goal. First, an enemy will check it's surroundings and update its state and target appropriately. Then, while the enemy can make actions, it will attempt to move closer to its target and execute an action.</p>
 
     <br />
     <br />
