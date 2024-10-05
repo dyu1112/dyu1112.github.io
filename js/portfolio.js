@@ -4,7 +4,7 @@ data = [
         "roles": "Audio Lead",
         "page": "duoq.html",
         "img": "assets/duoq_preview.png",
-        "category": ["Audio"],
+        "category": ["Audio", "Technical Audio"],
         "tech": "C++, Unreal Engine 5, MetaSounds"
     },
     {
@@ -12,7 +12,7 @@ data = [
         "roles": "Audio Lead, AI Programmer",
         "page": "irontestament.html",
         "img": "assets/irontestament_preview.png",
-        "category": ["Audio", "Game Programming"],
+        "category": ["Audio", "Technical Audio", "Game Programming"],
         "tech": "C#, Unity 3D, Wwise"
     },
     {
@@ -20,7 +20,7 @@ data = [
         "roles": "Technical Audio Designer, Audio Designer, Programmer",
         "page": "momentum.html",
         "img": "assets/momentum_preview.png",
-        "category": ["Audio", "Game Programming"],
+        "category": ["Audio", "Game Programming", "Technical Audio"],
         "tech": "C#, Unity 3D, Wwise"
     },
     {
@@ -84,7 +84,7 @@ data = [
         "roles": "Sound Lead",
         "page": "trickortreat.html",
         "img": "assets/boosthere_preview.png",
-        "category": ["Audio"],
+        "category": ["Audio", "Technical Audio"],
         "tech": "C#, Unity 2D, Wwise, Yarn Spinner, Ableton Live"
     },
     {
