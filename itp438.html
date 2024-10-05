@@ -58,31 +58,24 @@
     <div class="flex-wrapper">
         <ul class="flexList">
             <li>
-                Implemented a 3rd-person interaction system that chooses the closest interactable object that is
+                <b>Interaction: </b>Implemented a 3rd-person interaction system that chooses the closest interactable object that is
                 most directly in front of the player and within range
             </li>
-            <li>Implemented dash, death, crouch, and prone animations and states</li>
+            <li><b>Animations: </b>Implemented dash, death, crouch, and prone animations and states</li>
             <li>
-                Tracked and updated the player's "threat level", such that crouching, being prone, and standing in
+                <b>Stealth Mechanics: </b>Tracked and updated the player's "threat level", such that crouching, being prone, and standing in
                 stealth box areas decreased threat level, and moving increases threat level
             </li>
-            <li>
-                Implemented enemy AI through a behavior tree with two states, Chase and Patrol, based on the player's
-                threat level and whether the player is within the enemy's line of sight
-            </li>
-            <li>Implemented listen server networking with Steam and dedicated server networking</li>
-            <li>Implemented fair team-making and spawning</li>
+            <li><b>Networking: </b>Implemented networking for an FPS with team-making utilizing Online Subsystem Steam and listen server networking</li>
         </ul>
         <ul class="flexList">
-            <li>Replicated each team's overall score across all clients and kept track of each client's individual score</li>
             <li>
-                Implemented respawns in different locations if an opponent is too close to the player's team's spawn point
-                to prevent spawn camping
+                <b>Behavior Tree: </b>Implemented enemy AI through a behavior tree with two states, Chase and Patrol, based on the player's
+                threat level and whether the player is within the enemy's line of sight
             </li>
-            <li>Implemented a match chat viewable by everybody and a team chat viewable by the player's team</li>
-            <li>Utilized Online Subsystem Steam to allow players to search and join their Steam friend's session</li>
-            <li>Added the ability to spray tags in the world and autosave the tags's locations to be loaded in future matches</li>
-            <li>Added the ability to launch a grenade that kills all players within a certain range after 3 seconds</li>
+            <li><b>Multiplayer Chat: </b>Implemented a match chat viewable by everybody and a team chat viewable by the player's team</li>
+            <li><b>Save System: </b>Added the ability to spray tags in the world and autosave the tags's locations to be loaded in future matches</li>
+            <li><b>Gameplay Programming: </b>Added the ability to launch a grenade that kills all players within a certain range after 3 seconds</li>
         </ul>
     </div>
 

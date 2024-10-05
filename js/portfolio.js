@@ -1,13 +1,5 @@
 data = [
     {
-        "name": "Momentum",
-        "roles": "Programmer",
-        "page": "momentum.html",
-        "img": "assets/momentum_preview.png",
-        "category": ["Game Programming"],
-        "tech": "C#, Unity 3D"
-    },
-    {
         "name": "DuoQ",
         "roles": "Audio Lead",
         "page": "duoq.html",
@@ -17,11 +9,19 @@ data = [
     },
     {
         "name": "Iron Testament",
-        "roles": "AI Programmer",
+        "roles": "Audio Lead, AI Programmer",
         "page": "irontestament.html",
         "img": "assets/irontestament_preview.png",
-        "category": ["Game Programming"],
-        "tech": "C#, Unity 3D, State Machines"
+        "category": ["Audio", "Game Programming"],
+        "tech": "C#, Unity 3D, Wwise"
+    },
+    {
+        "name": "Momentum",
+        "roles": "Technical Audio Designer, Audio Designer, Programmer",
+        "page": "momentum.html",
+        "img": "assets/momentum_preview.png",
+        "category": ["Audio", "Game Programming"],
+        "tech": "C#, Unity 3D, Wwise"
     },
     {
         "name": "Free Will",
