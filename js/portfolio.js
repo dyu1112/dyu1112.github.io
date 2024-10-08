@@ -135,6 +135,15 @@ data = [
         "type": "Student Organization"
     },
     {
+        "name": "Mario Kart Recreation",
+        "roles": "Programmer",
+        "page": "mariokartrecreation.html",
+        "img": "assets/mariokart_preview.png",
+        "category": ["Game Programming"],
+        "tech": "C++, SDL Library",
+        "type": "Academic Course"
+    },
+    {
         "name": "Cellulose",
         "roles": "Composer, Programmer, UI",
         "page": "cellulose.html",
