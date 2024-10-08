@@ -81,7 +81,7 @@ body {
     p {
         font-size: 24px !important;
     }
-    p2 {
+    p2, p3 {
         font-size: 24px !important;
     }
     .footer-content {
@@ -143,6 +143,16 @@ p {
 }
 
 p2 {
+    font-family: RobotoBold, arial, sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    opacity: 100%;
+    color: var(--black);
+}
+
+p3 {
     font-family: RobotoBold, arial, sans-serif;
     line-height: 1.6;
     font-size: 20px;

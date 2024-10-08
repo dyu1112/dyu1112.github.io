@@ -5,7 +5,8 @@ data = [
         "page": "duoq.html",
         "img": "assets/duoq_preview.png",
         "category": ["Audio", "Technical Audio"],
-        "tech": "C++, Unreal Engine 5, MetaSounds"
+        "tech": "C++, Unreal Engine 5, MetaSounds",
+        "type": "Academic Course"
     },
     {
         "name": "Iron Testament",
@@ -13,7 +14,8 @@ data = [
         "page": "irontestament.html",
         "img": "assets/irontestament_preview.png",
         "category": ["Audio", "Technical Audio", "Game Programming"],
-        "tech": "C#, Unity 3D, Wwise"
+        "tech": "C#, Unity 3D, Wwise",
+        "type": "Independent Group"
     },
     {
         "name": "Momentum",
@@ -21,7 +23,8 @@ data = [
         "page": "momentum.html",
         "img": "assets/momentum_preview.png",
         "category": ["Audio", "Game Programming", "Technical Audio"],
-        "tech": "C#, Unity 3D, Wwise"
+        "tech": "C#, Unity 3D, Wwise",
+        "type": "Independent Group"
     },
     {
         "name": "Free Will",
@@ -29,7 +32,8 @@ data = [
         "page": "freewill.html",
         "img": "assets/freewill_preview.png",
         "category": ["Game Programming"],
-        "tech": "C#, Unity 2D"
+        "tech": "C#, Unity 2D",
+        "type": "Volunteer"
     },
     {
         "name": "Sorelle",
@@ -37,7 +41,8 @@ data = [
         "page": "sorelle.html",
         "img": "assets/sorelle_preview.png",
         "category": ["Audio"],
-        "tech": "Wwise, Ableton Live, Sound Particles"
+        "tech": "Wwise, Ableton Live, Sound Particles",
+        "type": "Volunteer"
     },
     {
         "name": "Sorcerer Smackdown",
@@ -45,7 +50,8 @@ data = [
         "page": "sorcerersmackdown.html",
         "img": "assets/sorcerersmackdown_preview.png",
         "category": ["Game Programming", "Audio"],
-        "tech": "C#, Unity 2D, Wwise, Adobe Premiere Pro"
+        "tech": "C#, Unity 2D, Wwise, Adobe Premiere Pro",
+        "type": "Student Organization"
     },
     {
         "name": "Syncon",
@@ -53,7 +59,8 @@ data = [
         "page": "syncon.html",
         "img": "assets/syncon_preview.png",
         "category": ["Game Programming"],
-        "tech": "C#, Unity 2D"
+        "tech": "C#, Unity 2D",
+        "type": "Academic Course"
     },
     {
         "name": "Try Not To Hit [An Unspecified] Bridge",
@@ -61,7 +68,8 @@ data = [
         "page": "unspecifiedbridge.html",
         "img": "assets/unspecifiedbridge_preview.png",
         "category": ["Game Programming"],
-        "tech": "C#, Unity 3D, Autodesk Maya"
+        "tech": "C#, Unity 3D, Autodesk Maya",
+        "type": "Game Jam"
     },
     {
         "name": "Unnamed Surgeon Game",
@@ -69,7 +77,8 @@ data = [
         "page": "unnamedsurgeon.html",
         "img": "assets/unnamedsurgeon_preview.png",
         "category": ["Game Programming", "Audio"],
-        "tech": "C#, Unity 3D"
+        "tech": "C#, Unity 3D",
+        "type": "Game Jam"
     },
     {
         "name": "ITP 438 - Advanced Gameplay Programming",
@@ -77,7 +86,8 @@ data = [
         "page": "itp438.html",
         "img": "assets/itp438_preview.jpg",
         "category": ["Game Programming"],
-        "tech": "C++, Unreal Engine 5"
+        "tech": "C++, Unreal Engine 5",
+        "type": "Academic Course"
     },
     {
         "name": "Boo's There?",
@@ -85,7 +95,8 @@ data = [
         "page": "trickortreat.html",
         "img": "assets/boosthere_preview.png",
         "category": ["Audio", "Technical Audio"],
-        "tech": "C#, Unity 2D, Wwise, Yarn Spinner, Ableton Live"
+        "tech": "C#, Unity 2D, Wwise, Yarn Spinner, Ableton Live",
+        "type": "Student Organization"
     },
     {
         "name": "Portal Recreation",
@@ -93,7 +104,8 @@ data = [
         "page": "portalrecreation.html",
         "img": "assets/portal_preview.png",
         "category": ["Game Programming"],
-        "tech": "C++, SDL Library"
+        "tech": "C++, SDL Library",
+        "type": "Academic Course"
     },
     {
         "name": "USCheduler",
@@ -101,7 +113,8 @@ data = [
         "page": "uscheduler.html",
         "img": "assets/uscheduler_preview.png",
         "category": ["SWE"],
-        "tech": "Java, Java Servlets, MySQL Workbench"
+        "tech": "Java, Java Servlets, MySQL Workbench",
+        "type": "Academic Course"
     },
     {
         "name": "Hear Your Fear",
@@ -109,7 +122,8 @@ data = [
         "page": "hearyourfear.html",
         "img": "assets/hearyourfear_preview.png",
         "category": ["Game Programming", "Audio"],
-        "tech": "C#, Unity 3D, Autodesk Maya"
+        "tech": "C#, Unity 3D, Autodesk Maya",
+        "type": "Academic Course"
     },
     {
         "name": "Bone Boy",
@@ -117,7 +131,8 @@ data = [
         "page": "boneboy.html",
         "img": "assets/boneboy_preview.png",
         "category": ["Game Programming", "Audio"],
-        "tech": "C#, Unity 2D, Wwise, Ableton Live"
+        "tech": "C#, Unity 2D, Wwise, Ableton Live",
+        "type": "Student Organization"
     },
     {
         "name": "Cellulose",
@@ -125,7 +140,8 @@ data = [
         "page": "cellulose.html",
         "img": "assets/cellulose_preview.png",
         "category": ["Game Programming", "Audio"],
-        "tech": "C#, Unity 2D, Ableton Live"
+        "tech": "C#, Unity 2D, Ableton Live",
+        "type": "Game Jam"
     },
     {
         "name": "Mom, Please Respect My Privacy",
@@ -133,7 +149,8 @@ data = [
         "page": "mprmp.html",
         "img": "assets/mprmp_preview.png",
         "category": ["Game Programming", "Audio"],
-        "tech": "C#, Unity 2D"
+        "tech": "C#, Unity 2D",
+        "type": "Game Jam"
     },
     {
         "name": "Ho Ho Who Did It?",
@@ -141,6 +158,7 @@ data = [
         "page": "hhwdi.html",
         "img": "assets/hhwdi_preview.png",
         "category": ["Audio"],
-        "tech": "Ableton Live"
+        "tech": "Ableton Live",
+        "type": "Game Jam"
     }
 ];
