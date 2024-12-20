@@ -5,7 +5,7 @@ data = [
         "page": "duoq.html",
         "img": "assets/duoq_preview.png",
         "category": ["Audio", "Technical Audio"],
-        "tech": "C++, Unreal Engine 5, MetaSounds",
+        "tech": "C++, Python, Unreal Engine 5, MetaSounds, Reaper",
         "type": "Academic Course"
     },
     {

@@ -13,7 +13,6 @@ function loadPortfolio(category) {
             temp += "<br /><div class=\"portfolioContent\"><h4>" + data[i].name + "</h4>";
             temp += "<p style=\"color: var(--blue)\">" + data[i].roles + "</p>";
             temp += "<p2>" + data[i].tech + "</p2><br/>";
-            temp += "<p3>" + data[i].type + "</p3>";
             temp += "</div></a>";
         }
     }
