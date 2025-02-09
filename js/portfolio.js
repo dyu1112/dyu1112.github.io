@@ -14,7 +14,7 @@ data = [
         "page": "irontestament.html",
         "img": "assets/irontestament_preview.png",
         "category": ["Audio", "Technical Audio", "Game Programming"],
-        "tech": "C#, Unity 3D, Wwise",
+        "tech": "C#, Unity 3D, Wwise, Ableton Live",
         "type": "Independent Group"
     },
     {
@@ -23,8 +23,17 @@ data = [
         "page": "momentum.html",
         "img": "assets/momentum_preview.png",
         "category": ["Audio", "Game Programming", "Technical Audio"],
-        "tech": "C#, Unity 3D, Wwise",
+        "tech": "C#, Unity 3D, Wwise, Ableton Live",
         "type": "Independent Group"
+    },
+    {
+        "name": "Liminal Pop",
+        "roles": "Technical Sound Designer, Programmer",
+        "page": "liminalpop.html",
+        "img": "assets/liminalpop_preview.png",
+        "category": ["Audio", "Game Programming", "Technical Audio"],
+        "tech": "C#, Unity 3D, Wwise, Ableton Live",
+        "type": "Game Jam"
     },
     {
         "name": "CSCI 522 - Game Engine Development",
@@ -130,7 +139,7 @@ data = [
         "roles": "Lead Programmer, Designer, 3D Artist",
         "page": "hearyourfear.html",
         "img": "assets/hearyourfear_preview.png",
-        "category": ["Game Programming", "Audio"],
+        "category": ["Game Programming", "Technical Audio"],
         "tech": "C#, Unity 3D, Autodesk Maya",
         "type": "Academic Course"
     },
