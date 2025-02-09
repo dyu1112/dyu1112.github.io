@@ -27,6 +27,15 @@ data = [
         "type": "Independent Group"
     },
     {
+        "name": "CSCI 522 - Game Engine Development",
+        "roles": "Audio Engineer",
+        "page": "csci522.html",
+        "img": "assets/csci522_preview.png",
+        "category": ["Technical Audio", "Game Programming"],
+        "tech": "C++, XAudio2",
+        "type": "Academic Course"
+    },
+    {
         "name": "Free Will",
         "roles": "Programmer, Designer",
         "page": "freewill.html",
