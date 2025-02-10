@@ -45,6 +45,15 @@ data = [
         "type": "Academic Course"
     },
     {
+        "name": "Gumshoot",
+        "roles": "Gameplay Programmer",
+        "page": "gumshoot.html",
+        "img": "assets/gumshoot_preview.png",
+        "category": ["Game Programming"],
+        "tech": "C#, Unity 2D",
+        "type": "Academic Course"
+    },
+    {
         "name": "Free Will",
         "roles": "Programmer, Designer",
         "page": "freewill.html",
