@@ -1,21 +1,24 @@
 <!doctype html>
 <html>
 <head>
-    <title>Daniel Yu CV</title>
+    <title>Daniel Yu Archive</title>
     <link rel="stylesheet" type="text/css" href="css/const.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="icon" type="image/png" href="assets/icon.png">
+    <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="js/heading.js"></script>
+    <script type="text/javascript" src="js/archive.js"></script>
     <script src="https://kit.fontawesome.com/7d29ad6950.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="loadPortfolio('All')">
     <div class="headerBox">
         <div class="stylizedHeader">
             <a class="invisibleLink" href="index.html">Daniel Yu</a>
             <table style="float:right">
                 <tr>
                     <td class="menuItem"><a class="heading" href="index.html">Projects</a></td>
-                    <td class="menuItem"><a class="heading" href="archive.html">Archive</a></td>
-                    <td class="menuItem"><a class="heading" href="cv.html" style="font-family: RobotoBold, arial, sans-serif; color: var(--orange)">CV</a></td>
+                    <td class="menuItem"><a class="heading" href="archive.html" style="font-family: RobotoBold, arial, sans-serif; color: var(--orange)">Archive</a></td>
+                    <td class="menuItem"><a class="heading" href="cv.html">CV</a></td>
                     <td class="menuItem"><a class="heading" href="about.html">About Me</a></td>
                     <td class="icon">
                         <a href="https://www.linkedin.com/in/daniel-yu-aa4b8420b/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
@@ -38,11 +41,22 @@
     <br />
     <br />
     <br />
-
-    <h1>CV</h1>
-    <object data="assets/Yu_Daniel_CV.pdf" type="application/pdf" style="display:block; margin: 0 auto; width: 70%; height: 600px"></object>
     <br />
-    <div style="text-align:center">Not showing up? Download <a href="assets/Yu_Daniel_CV.pdf" target="_blank">here.</a></div>
+    <br />
+
+    <div class="categoryBox">
+        <table>
+            <tr>
+                <td id="All"><span class="categoryItem" onclick="loadPortfolio('All')">All</span></td>
+                <td id="Audio"><span class="categoryItem" onclick="loadPortfolio('Audio')">Audio</span></td>
+                <td id="Game Programming"><span class="categoryItem" onclick="loadPortfolio('Game Programming')">Game Programming</span></td>
+                <td id="SWE"><span class="categoryItem" onclick="loadPortfolio('SWE')">SWE</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <br />
+    <div id="portfolio"></div>
 
     <br />
     <br />

@@ -72,42 +72,6 @@ data = [
         "type": "Volunteer"
     },
     {
-        "name": "Sorcerer Smackdown",
-        "roles": "Producer, Programmer",
-        "page": "sorcerersmackdown.html",
-        "img": "assets/sorcerersmackdown_preview.png",
-        "category": ["Game Programming", "Audio"],
-        "tech": "C#, Unity 2D, Wwise, Adobe Premiere Pro",
-        "type": "Student Organization"
-    },
-    {
-        "name": "Syncon",
-        "roles": "Programmer",
-        "page": "syncon.html",
-        "img": "assets/syncon_preview.png",
-        "category": ["Game Programming"],
-        "tech": "C#, Unity 2D",
-        "type": "Academic Course"
-    },
-    {
-        "name": "Try Not To Hit [An Unspecified] Bridge",
-        "roles": "Programmer, Artist",
-        "page": "unspecifiedbridge.html",
-        "img": "assets/unspecifiedbridge_preview.png",
-        "category": ["Game Programming"],
-        "tech": "C#, Unity 3D, Autodesk Maya",
-        "type": "Game Jam"
-    },
-    {
-        "name": "Unnamed Surgeon Game",
-        "roles": "Programmer, Sound Designer",
-        "page": "unnamedsurgeon.html",
-        "img": "assets/unnamedsurgeon_preview.png",
-        "category": ["Game Programming", "Audio"],
-        "tech": "C#, Unity 3D",
-        "type": "Game Jam"
-    },
-    {
         "name": "ITP 438 - Advanced Gameplay Programming",
         "roles": "Programmer",
         "page": "itp438.html",
@@ -135,15 +99,6 @@ data = [
         "type": "Academic Course"
     },
     {
-        "name": "USCheduler",
-        "roles": "Backend Developer",
-        "page": "uscheduler.html",
-        "img": "assets/uscheduler_preview.png",
-        "category": ["SWE"],
-        "tech": "Java, Java Servlets, MySQL Workbench",
-        "type": "Academic Course"
-    },
-    {
         "name": "Hear Your Fear",
         "roles": "Lead Programmer, Designer, 3D Artist",
         "page": "hearyourfear.html",
@@ -153,15 +108,6 @@ data = [
         "type": "Academic Course"
     },
     {
-        "name": "Bone Boy",
-        "roles": "Composer, Sound Designer, Audio Programmer",
-        "page": "boneboy.html",
-        "img": "assets/boneboy_preview.png",
-        "category": ["Game Programming", "Audio"],
-        "tech": "C#, Unity 2D, Wwise, Ableton Live",
-        "type": "Student Organization"
-    },
-    {
         "name": "Mario Kart Recreation",
         "roles": "Programmer",
         "page": "mariokartrecreation.html",
@@ -169,32 +115,5 @@ data = [
         "category": ["Game Programming"],
         "tech": "C++, SDL Library",
         "type": "Academic Course"
-    },
-    {
-        "name": "Cellulose",
-        "roles": "Composer, Programmer, UI",
-        "page": "cellulose.html",
-        "img": "assets/cellulose_preview.png",
-        "category": ["Game Programming", "Audio"],
-        "tech": "C#, Unity 2D, Ableton Live",
-        "type": "Game Jam"
-    },
-    {
-        "name": "Mom, Please Respect My Privacy",
-        "roles": "Sound Designer, Audio Programmer",
-        "page": "mprmp.html",
-        "img": "assets/mprmp_preview.png",
-        "category": ["Game Programming", "Audio"],
-        "tech": "C#, Unity 2D",
-        "type": "Game Jam"
-    },
-    {
-        "name": "Ho Ho Who Did It?",
-        "roles": "Audio Designer",
-        "page": "hhwdi.html",
-        "img": "assets/hhwdi_preview.png",
-        "category": ["Audio"],
-        "tech": "Ableton Live",
-        "type": "Game Jam"
     }
 ];
