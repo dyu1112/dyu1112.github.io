@@ -9,20 +9,20 @@ data = [
         "type": "Academic Course"
     },
     {
+        "name": "Sorelle",
+        "roles": "Sound Designer",
+        "page": "sorelle.html",
+        "img": "assets/sorelle_preview.png",
+        "category": ["Audio"],
+        "tech": "Ableton Live, Wwise",
+        "type": "Volunteer"
+    },
+    {
         "name": "Iron Testament",
         "roles": "Audio Lead, AI Programmer",
         "page": "irontestament.html",
         "img": "assets/irontestament_preview.png",
         "category": ["Audio", "Technical Audio", "Game Programming"],
-        "tech": "C#, Unity 3D, Wwise, Ableton Live",
-        "type": "Independent Group"
-    },
-    {
-        "name": "Momentum",
-        "roles": "Technical Audio Designer, Audio Designer, Programmer",
-        "page": "momentum.html",
-        "img": "assets/momentum_preview.png",
-        "category": ["Audio", "Game Programming", "Technical Audio"],
         "tech": "C#, Unity 3D, Wwise, Ableton Live",
         "type": "Independent Group"
     },
@@ -34,6 +34,15 @@ data = [
         "category": ["Audio", "Game Programming", "Technical Audio"],
         "tech": "C#, Unity 3D, Wwise, Ableton Live",
         "type": "Game Jam"
+    },
+    {
+        "name": "Momentum",
+        "roles": "Technical Audio Designer, Audio Designer, Programmer",
+        "page": "momentum.html",
+        "img": "assets/momentum_preview.png",
+        "category": ["Audio", "Game Programming", "Technical Audio"],
+        "tech": "C#, Unity 3D, Wwise, Ableton Live",
+        "type": "Independent Group"
     },
     {
         "name": "CSCI 522 - Game Engine Development",
@@ -60,15 +69,6 @@ data = [
         "img": "assets/freewill_preview.png",
         "category": ["Game Programming"],
         "tech": "C#, Unity 2D",
-        "type": "Volunteer"
-    },
-    {
-        "name": "Sorelle",
-        "roles": "Sound Designer",
-        "page": "sorelle.html",
-        "img": "assets/sorelle_preview.png",
-        "category": ["Audio"],
-        "tech": "Wwise, Ableton Live, Sound Particles",
         "type": "Volunteer"
     },
     {
