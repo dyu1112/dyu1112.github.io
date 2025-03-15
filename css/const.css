@@ -35,7 +35,7 @@ html {
 
 body {
     background-color: var(--offwhite);
-    background-image: url(../assets/background.png);
+    background-image: url(../assets/background.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -242,7 +242,7 @@ h4 {
     border-color: var(--black);
     box-shadow: 5px 5px var(--black);
     border-radius: 30px;
-    background-image: url("../assets/projectInfo.png");
+    background-image: url("../assets/projectInfo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
