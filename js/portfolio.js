@@ -18,6 +18,15 @@ data = [
         "type": "Volunteer"
     },
     {
+        "name": "CTIN 406 - Sound Design for Games",
+        "roles": "Technical Sound Designer",
+        "page": "ctin406.html",
+        "img": "assets/ctin406_preview.jpg",
+        "category": ["Audio", "Technical Audio"],
+        "tech": "C#, Unity, Wwise, Reaper",
+        "type": "Academic Course"
+    },
+    {
         "name": "Iron Testament",
         "roles": "Audio Lead, AI Programmer",
         "page": "irontestament.html",
@@ -37,7 +46,7 @@ data = [
     },
     {
         "name": "Momentum",
-        "roles": "Technical Audio Designer, Audio Designer, Programmer",
+        "roles": "Technical Audio Designer",
         "page": "momentum.html",
         "img": "assets/momentum_preview.jpg",
         "category": ["Audio", "Game Programming", "Technical Audio"],
