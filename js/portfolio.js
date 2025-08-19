@@ -3,7 +3,7 @@ data = [
         "name": "Skijoring",
         "roles": "Audio Designer",
         "page": "skijoring.html",
-        "img": "assets/skijoring_preview.jpg",
+        "img": "assets/skijoring_preview.webp",
         "category": ["Audio", "Technical Audio"],
         "tech": "Unreal Engine 5, Wwise, Reaper",
         "type": "Academic Course"
@@ -12,7 +12,7 @@ data = [
         "name": "DuoQ",
         "roles": "Audio Lead",
         "page": "duoq.html",
-        "img": "assets/duoq_preview.jpg",
+        "img": "assets/duoq_preview.webp",
         "category": ["Audio", "Technical Audio"],
         "tech": "C++, Python, Unreal Engine 5, MetaSounds, Reaper",
         "type": "Academic Course"
@@ -21,7 +21,7 @@ data = [
         "name": "Sorelle",
         "roles": "Sound Designer",
         "page": "sorelle.html",
-        "img": "assets/sorelle_preview.jpg",
+        "img": "assets/sorelle_preview.webp",
         "category": ["Audio"],
         "tech": "Ableton Live, Wwise",
         "type": "Volunteer"
@@ -30,7 +30,7 @@ data = [
         "name": "CTIN 406 - Sound Design for Games",
         "roles": "Technical Sound Designer",
         "page": "ctin406.html",
-        "img": "assets/ctin406_preview.jpg",
+        "img": "assets/ctin406_preview.webp",
         "category": ["Audio", "Technical Audio"],
         "tech": "C#, Unity, Wwise, Reaper",
         "type": "Academic Course"
@@ -39,7 +39,7 @@ data = [
         "name": "Iron Testament",
         "roles": "Audio Lead, AI Programmer",
         "page": "irontestament.html",
-        "img": "assets/irontestament_preview.jpg",
+        "img": "assets/irontestament_preview.webp",
         "category": ["Audio", "Technical Audio", "Game Programming"],
         "tech": "C#, Unity 3D, Wwise, Ableton Live",
         "type": "Independent Group"
@@ -48,7 +48,7 @@ data = [
         "name": "Liminal Pop",
         "roles": "Technical Sound Designer, Programmer",
         "page": "liminalpop.html",
-        "img": "assets/liminalpop_preview.jpg",
+        "img": "assets/liminalpop_preview.webp",
         "category": ["Audio", "Game Programming", "Technical Audio"],
         "tech": "C#, Unity 3D, Wwise, Ableton Live",
         "type": "Game Jam"
@@ -57,7 +57,7 @@ data = [
         "name": "CSCI 522 - Game Engine Development",
         "roles": "Audio Engineer",
         "page": "csci522.html",
-        "img": "assets/csci522_preview.jpg",
+        "img": "assets/csci522_preview.webp",
         "category": ["Technical Audio", "Game Programming"],
         "tech": "C++, XAudio2",
         "type": "Academic Course"
@@ -66,7 +66,7 @@ data = [
         "name": "Free Will",
         "roles": "Programmer, Designer",
         "page": "freewill.html",
-        "img": "assets/freewill_preview.jpg",
+        "img": "assets/freewill_preview.webp",
         "category": ["Game Programming"],
         "tech": "C#, Unity 2D",
         "type": "Volunteer"
