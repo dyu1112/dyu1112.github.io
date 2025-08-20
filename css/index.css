@@ -28,6 +28,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
 }
 
     .hoverbox:hover {
@@ -35,6 +40,18 @@
         transform: scale(1.03);
         text-decoration: none;
     }
+
+@keyframes fadeInOpacity {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    60%, 100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 
 @media screen and (max-width: 420px) {
     .hoverbox {
