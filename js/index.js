@@ -22,18 +22,12 @@ function createPortfolioItem(category, i) {
         createPortfolioItem(category, i + 1);
     }
     else {
-        const hoverbox = document.createElement("a");
-        hoverbox.className = "hoverbox";
-        hoverbox.href = data[i].page;
-        
-        temp = "<img loading=\"lazy\" class=\"portfolioImg\" src=\"" + data[i].img + "\" width=\"100%\">";
-        temp += "<br /><div class=\"portfolioContent\"><h4>" + data[i].name + "</h4>";
-        temp += "<p style=\"color: var(--blue)\">" + data[i].roles + "</p>";
-        temp += "<p2>" + data[i].tech + "</p2><br/>";
-        temp += "</div>";
-        hoverbox.innerHTML = temp;
+        const placeholder = document.createElement("div");
+        placeholder.className = "placeholder";
+        placeholder.dataset.index = i; // keep track of item number
 
-        document.getElementById("portfolio").appendChild(hoverbox);
+        document.getElementById("portfolio").appendChild(placeholder);
+        observer.observe(placeholder);
 
         setTimeout(() => {
             createPortfolioItem(category, i+1);
@@ -44,3 +38,29 @@ function createPortfolioItem(category, i) {
 function loadItem(page) {
     window.location.href = page;
 }
+
+const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            // Create the real item
+            const i = entry.target.dataset.index;
+            const hoverbox = document.createElement("a");
+            hoverbox.className = "hoverbox";
+            hoverbox.href = data[i].page;
+
+            temp = "<img loading=\"lazy\" class=\"portfolioImg\" src=\"" + data[i].img + "\" width=\"100%\">";
+            temp += "<br /><div class=\"portfolioContent\"><h4>" + data[i].name + "</h4>";
+            temp += "<p style=\"color: var(--blue)\">" + data[i].roles + "</p>";
+            temp += "<p2>" + data[i].tech + "</p2><br/>";
+            temp += "</div>";
+            hoverbox.innerHTML = temp;
+
+            // Replace placeholder with real item
+            entry.target.replaceWith(hoverbox);
+
+            observer.unobserve(entry.target); // stop watching this placeholder
+        }
+    });
+}, {
+    threshold: 1
+});

@@ -12,6 +12,15 @@
     padding: 0 14px 14px 14px;
 }
 
+.placeholder {
+    width: 43%;
+    height: 100px;
+    margin: 1.9%;
+    float: left;
+    border-width: 2px;
+    border-style: hidden;
+}
+
 .hoverbox {
     transition: transform 0.2s;
     width: 43%;
