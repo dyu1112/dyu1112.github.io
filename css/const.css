@@ -122,6 +122,13 @@ body {
     display: block;
 }
 
+.embed_video_centered {
+    aspect-ratio: 16/9;
+    border: none;
+    display: block;
+    margin: 0 auto;
+}
+
 .light-mode {
     --offwhite: white;
     --black: #2a353b;
