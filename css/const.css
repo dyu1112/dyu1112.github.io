@@ -5,6 +5,10 @@
     --orange: #E68B3D;
 }
 
+@view-transition {
+    navigation: auto;
+}
+
 @font-face {
     font-family: "Roboto";
     src: url('Roboto-Regular.ttf') format('truetype');
@@ -232,7 +236,7 @@ h4 {
     }
 
 .headerBox {
-    padding: 3vh 16.8vw;
+    padding: 3vh 10%;
     position: fixed;
     top: 0;
     left: 0;

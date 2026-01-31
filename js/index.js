@@ -29,9 +29,14 @@ function createPortfolioItem(category, i) {
         document.getElementById("portfolio").appendChild(placeholder);
         observer.observe(placeholder);
 
-        setTimeout(() => {
-            createPortfolioItem(category, i+1);
-        }, 200);
+        if ((i + 1) % 3 == 0) {
+            setTimeout(() => {
+                createPortfolioItem(category, i + 1);
+            }, 200);
+        }
+        else {
+            createPortfolioItem(category, i + 1);
+        }
     }
 }
 

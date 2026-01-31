@@ -1,6 +1,7 @@
 #portfolio {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .portfolioImg {
@@ -13,18 +14,36 @@
 }
 
 .placeholder {
-    width: 43%;
-    height: 100px;
-    margin: 1.9%;
+    width: 30%;
+    height: 200px;
+    margin: 1%;
     float: left;
     border-width: 2px;
     border-style: hidden;
 }
 
+body {
+    background-color: var(--offwhite);
+    background-image: url(../assets/background.webp);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--black);
+    font-family: Roboto, arial, sans-serif;
+    font-size: 16px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .hoverbox {
     transition: transform 0.2s;
-    width: 43%;
-    margin: 1.9%;
+    width: 30%;
+    margin: 1%;
     float: left;
     background-color: var(--offwhite);
     border-color: var(--offwhite);
